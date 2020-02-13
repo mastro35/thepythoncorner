@@ -5,7 +5,6 @@ title: Web Automation in Python
 tags: [web, splinter, selenium, webtest]
 ---
 Automation and web test. The Pythonic way.
-<!--more-->
 
 ![turing_test](https://imgs.xkcd.com/comics/turing_test.png)
 
