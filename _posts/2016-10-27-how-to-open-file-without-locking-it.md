@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Davide Mastromatteo
 title: How To Open a File in Python Without Locking It
 tags: [file, python, lock]
 featured-image: https://imgs.xkcd.com/comics/still_in_use.png

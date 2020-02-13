@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Davide Mastromatteo
 title: Web Automation in Python
 tags: [web, splinter, selenium, webtest]
 featured-image: https://imgs.xkcd.com/comics/turing_test.png
