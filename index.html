@@ -6,26 +6,27 @@ layout: default
     {% for post in site.posts %}
         <article class="post">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-        {% assign foundImage = 0 %}
-        {% assign images = post.content | split:"<img " %}
-        {% for image in images %}
-            {% if image contains 'src' %}
-                {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-                    <img {{ html }} />
-                    {% assign foundImage = 1 %}
+            {% assign foundImage = 0 %}
+            {% assign images = post.content | split:"<img " %}
+            {% for image in images %}
+                {% if image contains 'src' %}
+                    {% if foundImage == 0 %}
+                        {% assign html = image | split:"/>" | first %}
+                        <img {{ html }} />
+                        {% assign foundImage = 1 %}
+                    {% endif %}
                 {% endif %}
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
 
-        <div class="entry">
-        {{ post.excerpt }}
-        </div>
-             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-             <tr>
-             <br>
+            <div class="entry">
+            {{ post.excerpt }}
+            </div>
+
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
+        <tr>
+        <br>
     {% endfor %}
 </div>

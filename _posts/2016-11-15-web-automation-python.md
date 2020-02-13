@@ -8,24 +8,24 @@ excerpt_separator: <!--more-->
 Automation and web test. The Pythonic way.
 <!--more-->
 
-![](https://imgs.xkcd.com/comics/turing_test.png)
+![turing_test](https://imgs.xkcd.com/comics/turing_test.png)
 
 A couple of days ago I was in the need of automating simple browsing on the internet.
 To be more specific I needed to visit my company website, click on a couple of specific links and then repeat this operation every few minutes. You are probably thinking that there is software that can perform what is called «automation test» but I am just too lazy to surf the web looking for a free program and writing code is really more fun so there was just one thing in my mind...
 
-![](https://cdn-images-1.medium.com/max/800/1*x38OL4Y7YnkXsZLDLihs7Q.jpeg)
+![frey](https://cdn-images-1.medium.com/max/800/1*x38OL4Y7YnkXsZLDLihs7Q.jpeg)
 
-For this project, we’ll use [Splinter](https://splinter.readthedocs.io). 
+For this project, we’ll use [Splinter](https://splinter.readthedocs.io).
 
 According to the official website
 
 > Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their items.
 
-Splinter is just an abstraction layer on top of [Selenium](http://seleniumhq.org/) and makes easy to write automation tests for web applications. 
+Splinter is just an abstraction layer on top of [Selenium](http://seleniumhq.org/) and makes easy to write automation tests for web applications.
 
-So, let’s pretend that we want to automate research on bing.com. 
-First of all, we need to install Splinter. 
-To do it, open a terminal and do a 
+So, let’s pretend that we want to automate research on bing.com.
+First of all, we need to install Splinter.
+To do it, open a terminal and do a
 
 ```console
 pip install splinter
@@ -33,7 +33,7 @@ pip install splinter
 
 Once Splinter’s been installed we need to choose the browser to use.
 By default, the system would use Firefox, but you can choose to use Chrome or IE as well.
-Today we’ll use Chrome, so you will need to install both the Chrome browser and the Chrome web driver that you can find [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). 
+Today we’ll use Chrome, so you will need to install both the Chrome browser and the Chrome web driver that you can find [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
 If you use Windows or Linux the driver is just a standalone executable that you have to put in a directory listed in your PATH environment variable, if you use macOS you can get it through homebrew with:
 
@@ -80,7 +80,7 @@ According to their website
 
 > PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
 
-PhantomJS is simply amazing and works great with Splinter. 
+PhantomJS is simply amazing and works great with Splinter.
 
-Enjoy and... happy Pythoning!
+Enjoy and... happy Pythoning!  
 D.
