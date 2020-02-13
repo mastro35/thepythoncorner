@@ -28,7 +28,7 @@ twitter_username: thepythoncorner
 github_username: mastro35 
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
