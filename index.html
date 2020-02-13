@@ -5,12 +5,22 @@ layout: default
 <div class="posts">
     {% for post in site.posts %}
         <article class="post">
+
+        {% assign foundImage = 0 %}
+        {% assign images = post.content | split:"<img " %}
+        {% for image in images %}
+            {% if image contains 'src' %}
+                {% if foundImage == 0 %}
+                    {% assign html = image | split:"/>" | first %}
+                    <img {{ html }} />
+                    {% assign foundImage = 1 %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
         <div class="entry">
-
-    
-
         {{ post.excerpt }}
         </div>
 
