@@ -1,5 +1,11 @@
-When I use python I’m usually on Linux or macOS but last week I had to write a python script on Windows.
-Yes, Windows! You know... that place where slashes are misoriented, drives are named with a single alphabet letter and “tail” and “grep” commands are usually considered less important than “Clippy”.
+---
+layout: post
+title: How To Open a File in Python Without Locking It
+tags: [file, python, lock]
+---
+
+When I use python I’m usually on Linux or macOS but last week I had to write a python script on Windows.  
+Yes, Windows! You know... that place where slashes are misoriented, drives are named with a single alphabet letter and “tail” and “grep” commands are usually considered less important than "Clippy".
 
 ![](https://cdn-images-1.medium.com/max/800/1*eTEvMXSe7JqbnYEu6U2d5w.jpeg)
 
@@ -51,6 +57,7 @@ for line in file:
 ```
 
 ... you can delete the file while you are reading from it.
+
 That’s cool, isn’t it?
 
 Happy coding! 
