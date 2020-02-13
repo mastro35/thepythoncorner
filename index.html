@@ -14,14 +14,14 @@ layout: default
                 {% if image contains 'src' %}
                     {% if foundImage == 0 %}
                         {% assign html = image | split:"/>" | first %}
-                        <img width="250" {{ html }} />{{ post.excerpt }}
+                        <img width="250" {{ html }} />
                         {% assign foundImage = 1 %}
                     {% endif %}
                 {% endif %}
             {% endfor %}
 
             <div class="entry">
-            
+            {{ post.excerpt }}
             </div>
 
             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
