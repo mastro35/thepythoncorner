@@ -14,7 +14,7 @@ layout: default
                 {% if image contains 'src' %}
                     {% if foundImage == 0 %}
                         {% assign html = image | split:"/>" | first %}
-                        <img {{ html }} />
+                        <img width=326 {{ html }} />
                         {% assign foundImage = 1 %}
                     {% endif %}
                 {% endif %}
