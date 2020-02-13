@@ -2,49 +2,19 @@
 layout: default
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-        {% if image contains 'src' %}
+<div class="posts">
+    {% for post in site.posts %}
+        <article class="post">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-            {% if foundImage == 0 %}
-                {% assign html = image | split:"/>" | first %}
-                <img {{ html }} />
-                {% assign foundImage = 1 %}
-            {% endif %}
-        {% endif %}
-      {% endfor %}
+        <div class="entry">
 
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+    
 
-<ul id="posts">
-    {% for post in paginator.posts %}
- <a href="{{ post.url }}">
-    <li>
-      <div>
-        {% assign foundImage = 0 %}
-          {% assign images = post.content | split:"<img " %}
-              {% for image in images %}
-                {% if image contains 'src' %}
-                    {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-                    <time>{{ post.date | date:"%d %b %Y" }}</time>
-                    <h3>{{ post.title }}</h3>
-                    <hr>
-                    <div><img width="250" {{ html }} />{{ post.desc }}</div>
-                     {% assign foundImage = 1 %}
-                    {% endif %}
-             {% endfor %}
+        {{ post.excerpt }}
         </div>
-     </li>
- </a>
-    {% endif %}
-    {% endfor %}
-</ul>
 
+             <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+    {% endfor %}
+</div>

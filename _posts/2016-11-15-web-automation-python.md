@@ -4,8 +4,6 @@ author: Davide Mastromatteo
 title: Web Automation in Python
 tags: [web, splinter, selenium, webtest]
 ---
-![](https://imgs.xkcd.com/comics/turing_test.png)
-
 A couple of days ago I was in the need of automating simple browsing on the internet.
 To be more specific I needed to visit my company website, click on a couple of specific links and then repeat this operation every few minutes. You are probably thinking that there is software that can perform what is called «automation test» but I am just too lazy to surf the web looking for a free program and writing code is really more fun so there was just one thing in my mind...
 
