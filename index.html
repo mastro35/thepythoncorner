@@ -6,6 +6,8 @@ layout: default
     {% for post in site.posts %}
         <article class="post">
 
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
         {% assign foundImage = 0 %}
         {% assign images = post.content | split:"<img " %}
         {% for image in images %}
@@ -17,8 +19,6 @@ layout: default
                 {% endif %}
             {% endif %}
         {% endfor %}
-
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
         <div class="entry">
         {{ post.excerpt }}

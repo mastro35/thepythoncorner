@@ -3,7 +3,11 @@ layout: post
 author: Davide Mastromatteo
 title: Web Automation in Python
 tags: [web, splinter, selenium, webtest]
+excerpt_separator: <!--more-->
 ---
+Automation and web test. The Pythonic way.
+<!--more-->
+
 ![](https://imgs.xkcd.com/comics/turing_test.png)
 
 A couple of days ago I was in the need of automating simple browsing on the internet.

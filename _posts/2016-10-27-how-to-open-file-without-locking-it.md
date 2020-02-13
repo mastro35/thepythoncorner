@@ -3,7 +3,11 @@ layout: post
 author: Davide Mastromatteo
 title: How To Open a File in Python Without Locking It
 tags: [file, python, lock]
+excerpt_separator: <!--more-->
 ---
+I've lost a couple of hours on trying to understand how to open a file without locking it on Windows, Do you want to save this time? :)
+<!--more-->
+
 ![](https://imgs.xkcd.com/comics/still_in_use.png)
 
 When I use python I’m usually on Linux or macOS but last week I had to write a python script on Windows.  
