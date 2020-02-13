@@ -6,7 +6,7 @@ Yes, Windows! You know... that place where slashes are misoriented, drives are n
 However, working on windows Iâ€™ve discovered something I considered weird: opening a file on Windows with the open() method, actually locks the file and prevents it from deletion.
 So, while this is being executed...
 
-```
+```python
 for line in open(prova.log):
     print(line)
 ```
@@ -18,7 +18,7 @@ So, if you need to open a file without locking it, you need to use Mark Hammondâ
 
 In fact, by using the Win32 API you can ...
 
-```
+```python
 import os
 import win32file
 import msvcrt
