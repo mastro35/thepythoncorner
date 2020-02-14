@@ -1,10 +1,19 @@
 ---
-layout: post
-author: Davide Mastromatteo
-title: Web Automation in Python
-tags: [web, splinter, selenium, webtest]
+title: "Web Automation in Python"
+excerpt_separator: "<!--more-->"
+categories:
+  - Dev
+tags:
+  - web
+  - splinter
+  - selenium
+  - webtest
+  - automation
+  - python
 ---
 Automation and web test. The Pythonic way.
+
+<!--more-->
 
 ![turing_test](https://imgs.xkcd.com/comics/turing_test.png)
 
