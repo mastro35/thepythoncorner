@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   only for Pythonistas
 twitter_username: mastro35
 github_username: mastro35
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
