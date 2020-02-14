@@ -15,12 +15,12 @@ Automation and web test. The Pythonic way.
 
 <!--more-->
 
-![turing_test](https://imgs.xkcd.com/comics/turing_test.png)
+![turing_test](https://imgs.xkcd.com/comics/turing_test.png){: .align-center}
 
 A couple of days ago I was in the need of automating simple browsing on the internet.
 To be more specific I needed to visit my company website, click on a couple of specific links and then repeat this operation every few minutes. You are probably thinking that there is software that can perform what is called «automation test» but I am just too lazy to surf the web looking for a free program and writing code is really more fun so there was just one thing in my mind...
 
-![frey](https://cdn-images-1.medium.com/max/800/1*x38OL4Y7YnkXsZLDLihs7Q.jpeg)
+![frey](https://cdn-images-1.medium.com/max/800/1*x38OL4Y7YnkXsZLDLihs7Q.jpeg){: .align-center}
 
 For this project, we’ll use [Splinter](https://splinter.readthedocs.io).
 
