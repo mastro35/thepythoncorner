@@ -1,32 +1,7 @@
 ---
-layout: default
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+author_profile: true
 ---
-
-<div class="posts">
-    {% for post in site.posts %}
-        <article class="post">
-
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-            {% assign foundImage = 0 %}
-            {% assign images = post.content | split:"<img " %}
-            {% for image in images %}
-                {% if image contains 'src' %}
-                    {% if foundImage == 0 %}
-                        {% assign html = image | split:"/>" | first %}
-                        <img width="250" {{ html }} />
-                        {% assign foundImage = 1 %}
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-
-            <div class="entry">
-            {{ post.excerpt }}
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-        <tr>
-        <br>
-    {% endfor %}
-</div>
