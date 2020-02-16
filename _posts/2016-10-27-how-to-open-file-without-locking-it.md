@@ -1,8 +1,8 @@
 ---
 title: "How To Open a File in Python Without Locking It"
 excerpt_separator: "<!--more-->"
-header:
-  image: https://imgs.xkcd.com/comics/still_in_use.png
+# header:
+#   image: https://imgs.xkcd.com/comics/still_in_use.png
 categories:
   - Dev
 tags:
