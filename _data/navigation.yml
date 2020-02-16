@@ -1,13 +1,13 @@
 main:
-  - title: "Posts"
-    url: /posts/
+#  - title: "Posts"
+#    url: /posts/
   - title: "Gift Shop"
     url: https://shop.spreadshirt.com/the-python-corner/
   - title: "Newsletter"
     url: https://us14.list-manage.com/subscribe?u=718ce266cd03b5f3ec0df4358&id=9febfbf961
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Tags"
+#    url: /tags/
   - title: "About"
     url: /about/

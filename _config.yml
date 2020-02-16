@@ -106,7 +106,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
 comments:
   provider: "disqus"
   disqus:

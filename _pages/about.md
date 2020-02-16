@@ -7,7 +7,7 @@ If you are reading this page it means that you are interested in this project, s
 
 But staying online and creating quality contents costs. We invest all our knowledge, our passion and a lot of our time in this project and to stay online we need your help.
 
-There are so many ways to help us: if you are a Python enthusiast you can just help us by making a donation to [our paypal account](https://www.paypal.me/mastro35) or by sending bitcoin to the wallet 15zommQc52pu1bD95n9s31uskeAWDGhYzA. 
+There are so many ways to help us: if you are a Python enthusiast you can just help us by making a donation to [our paypal account](https://www.paypal.me/mastro35) or by sending bitcoin to the wallet 15zommQc52pu1bD95n9s31uskeAWDGhYzA.
 
 If you are on Patreon, you can help us by visiting [our Patreon page](https://www.patreon.com/thepythoncorner) and choosing the tier you prefer.
 
