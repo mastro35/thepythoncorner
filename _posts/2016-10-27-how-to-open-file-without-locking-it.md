@@ -1,6 +1,8 @@
 ---
 title: "How To Open a File in Python Without Locking It"
 excerpt_separator: "<!--more-->"
+header:
+  image: https://imgs.xkcd.com/comics/still_in_use.png
 categories:
   - Dev
 tags:
@@ -11,8 +13,6 @@ tags:
 I've lost a couple of hours on trying to understand how to open a file without locking it on Windows, Do you want to save this time? :)
 
 <!--more-->
-
-![still in use](https://imgs.xkcd.com/comics/still_in_use.png){: .align-center}
 
 When I use python I’m usually on Linux or macOS but last week I had to write a python script on Windows.  
 Yes, Windows! You know... that place where slashes are misoriented, drives are named with a single alphabet letter and “tail” and “grep” commands are usually considered less important than "Clippy".
