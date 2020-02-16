@@ -1,6 +1,8 @@
 ---
 title: "Web Automation in Python"
 excerpt_separator: "<!--more-->"
+header:
+  image: https://imgs.xkcd.com/comics/turing_test.png
 categories:
   - Dev
 tags:
