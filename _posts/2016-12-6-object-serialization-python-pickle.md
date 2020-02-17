@@ -118,7 +118,7 @@ All I’ve said so far is just to whet your appetite because there’s a lot mor
 
 So, there are currently 5 protocols of pickling:
 
-According to the official documentation:
+According to the [official documentation](https://docs.python.org/3.4/library/pickle.html#data-stream-format):
 
 >Protocol version 0 is the original “human-readable” protocol and is backwards compatible with earlier versions of Python.
 >Protocol version 1 is an old binary format which is also compatible with earlier versions of Python.
@@ -196,7 +196,7 @@ my_new_zen_object = pickle.loads(my_pickled_zen_object)
 print(str.format("I'm {0}, and I don't have a beginner mind yet because I've meditated only {1} times'", my_new_zen_object.name, my_new_zen_object.number_of_meditations))
 ```
 
-This was just a brief introduction to the pickle module, for more information about the pickle module visit the official documentation and if you want more information about the "beginners mind", buy Zen Mind, Beginner's Mind by Shunryu Suzuki using this sponsored Amazon links and you will help to support The Python corner!
+This was just a brief introduction to the pickle module, for more information about the pickle module visit the [official documentation](https://docs.python.org/3.4/library/pickle.html) and if you want more information about the "beginners mind", buy [Zen Mind, Beginner's Mind by Shunryu Suzuki](https://www.amazon.co.uk/gp/product/B00M0D8110/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00M0D8110&linkCode=as2&tag=mastro3509-21) using this sponsored Amazon links and you will help to support The Python corner!
 
 Enjoy!
 D.
