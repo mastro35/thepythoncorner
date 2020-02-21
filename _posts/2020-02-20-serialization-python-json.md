@@ -32,7 +32,7 @@ And now... it's JSON time!
 
 I still remember the first time I met JSON... what a wonderful time! Someone told me that the *JS* part of the JSON word means "JavaScript" and so I had myself and decided to retire in a Buddist temple for the rest of my life.
 
-![alan](../images/alan_meditation.jpg)
+![alan](https://i1.wp.com/mastro35.github.io/thepythoncorner/images/alan_meditation.jpg)
 
 Then I had the enlightenment and understood that I had better to decipher the whole acronym... and I found out that JSON stands for **JavaScript Object Notation**.
 
