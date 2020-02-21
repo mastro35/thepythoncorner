@@ -37,7 +37,7 @@ I still remember the first time I met JSON... what a wonderful time! Someone tol
 Then I had the enlightenment and understood that I had better to decipher the whole acronym... and I found out that JSON stands for **JavaScript Object Notation**.
 
 So the *JavaScript* part is just about the "Object Notation" token?
-Why did they decide to use the world *Javascript* on something not related to that stupid little language?
+Why did they decide to use the world *Javascript* on something not related to that *$)%!(£&* little language?
 Who knows...
 
 However, I decided to dig a little bit more and this is how a JSON object appears to be:
