@@ -9,7 +9,7 @@ tags:
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
-When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
+When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `` element. 
 
 **Changes in Service:** We just updated our [privacy policy](#) here to better service our customers. We recommend reviewing the changes.
 {: .notice}
@@ -57,12 +57,12 @@ Or you could skip the capture and stick with straight HTML.
 
 ```html
 <div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
+  ### Message
+  A basic message.
 </div>
 ```
 
 <div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
+  ### Message
+  A basic message.
 </div>

@@ -22,7 +22,7 @@ To be more specific I needed to visit my company website, click on a couple of s
 
 ![frey](https://cdn-images-1.medium.com/max/800/1*x38OL4Y7YnkXsZLDLihs7Q.jpeg){: .align-center}
 
-For this project, we’ll use [Splinter](https://splinter.readthedocs.io).
+For this project, we'll use [Splinter](https://splinter.readthedocs.io).
 
 According to the official website
 
@@ -30,7 +30,7 @@ According to the official website
 
 Splinter is just an abstraction layer on top of [Selenium](http://seleniumhq.org/) and makes easy to write automation tests for web applications.
 
-So, let’s pretend that we want to automate research on bing.com.
+So, let's pretend that we want to automate research on bing.com.
 First of all, we need to install Splinter.
 To do it, open a terminal and do a
 
@@ -38,9 +38,9 @@ To do it, open a terminal and do a
 pip install splinter
 ```
 
-Once Splinter’s been installed we need to choose the browser to use.
+Once Splinter's been installed we need to choose the browser to use.
 By default, the system would use Firefox, but you can choose to use Chrome or IE as well.
-Today we’ll use Chrome, so you will need to install both the Chrome browser and the Chrome web driver that you can find [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+Today we'll use Chrome, so you will need to install both the Chrome browser and the Chrome web driver that you can find [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
 If you use Windows or Linux the driver is just a standalone executable that you have to put in a directory listed in your PATH environment variable, if you use macOS you can get it through homebrew with:
 
@@ -77,9 +77,9 @@ Once run, this script will let you achieve three major results:
 However, this is just a small example of what you can do with Splinter.
 It also allows you to find elements in page by their CSS, XPath, tag, name, text, id or value and if you want a more accurate control of the page or you need to do something more (like interacting with the old «frameset» tags) it expose also the web driver that allows you to use the Selenium low-level methods.
 
-There’s no need to say that you can obviously get also the HTTP status code of the page you visited (using browser.status_code) and the HTML of the page (using browser.html).
+There's no need to say that you can obviously get also the HTTP status code of the page you visited (using browser.status_code) and the HTML of the page (using browser.html).
 
-Besides, the Splinter project is super well documented and that’s really important when you have to deal with third-party libraries.
+Besides, the Splinter project is super well documented and that's really important when you have to deal with third-party libraries.
 
 One last thing: if you want to create an automation test that runs without the browser window, you can try [PhantomJS](http://phantomjs.org/).
 

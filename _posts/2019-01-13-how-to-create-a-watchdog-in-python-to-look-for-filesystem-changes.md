@@ -2,7 +2,7 @@
 title: How to create a watchdog in Python to look for filesystem changes
 date: 2019-01-13T19:08:55+01:00
 author: Davide Mastromatteo
-excerpt: In this article, we’ll discuss how to implement a watchdog in Python that monitors a file system to automatically take actions when a change occurs.
+excerpt: In this article, we'll discuss how to implement a watchdog in Python that monitors a file system to automatically take actions when a change occurs.
 header:
   teaser: https://imgs.xkcd.com/comics/vet.png
 categories:
@@ -15,223 +15,157 @@ tags:
 redirect_from:
   /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes
 ---
-<p>Hey guys, today's post is about how to create a watchdog in Python. But what is a ”watchdog”?</p>
-<p>A watchdog is a little piece of software that monitors our filesystem looking for any changes (like the creation, change or deletion of a file or of a directory). When a change occurs, the watchdog report it to us raising a specific event that we can handle.</p>
-<p>For example, let's suppose you have developed a program that use a configuration file. Your program could set a watchdog to monitor that file and if the configuration file is modified you could think to reload it and apply the new configuration at runtime, without the need of restarting your program.</p>
-<p>That's cool, uh?</p>
-<p>So, today we will code a watchdog in Python.</p>
-<p>To code this program we will need an additional module called "watchdog" (wow, who could have guessed it?) written by <a href="yesudeep@gmail.com">Yesudeep Mangalapilly</a>, so let's start by installing it. As always, I raccomand to use virtual environments instead of installing packages system wide. If you want to find out more about virtual environments (that's probabilly because you haven't read all my previous post, so shame on you!), just have a look at this article.</p>
-<p>Now, create your virtual environment (optional but raccomended... at least by me), activate it and install the package watchdog with the following command:<code class="language-console"><br />
-</code></p>
+Hey guys, today's post is about how to create a watchdog in Python. But what is a "watchdog"?
+A watchdog is a little piece of software that monitors our filesystem looking for any changes (like the creation, change or deletion of a file or of a directory). When a change occurs, the watchdog report it to us raising a specific event that we can handle.
+For example, let's suppose you have developed a program that use a configuration file. Your program could set a watchdog to monitor that file and if the configuration file is modified you could think to reload it and apply the new configuration at runtime, without the need of restarting your program.
+That's cool, uh?
+So, today we will code a watchdog in Python.
+To code this program we will need an additional module called "watchdog" (wow, who could have guessed it?) written by [Yesudeep Mangalapilly](yesudeep@gmail.com), so let's start by installing it. As always, I raccomand to use virtual environments instead of installing packages system wide. If you want to find out more about virtual environments (that's probabilly because you haven't read all my previous post, so shame on you!), just have a look at this article.
+Now, create your virtual environment (optional but raccomended... at least by me), activate it and install the package watchdog with the following command:
 
-<!-- wp:paragraph -->
-<p>Done, we have almost finished, haven't we?<br>I mean, we still need to code the program that will actually use this module, but trust me, that will be really easy!</p>
-<!-- /wp:paragraph -->
+```console
+pip install watchdog
+```
 
-<!-- wp:codemirror-blocks/code-block {"mode":"htmlmixed","mime":"text/html"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>pip install watchdog</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+Done, we have almost finished, haven't we?\nI mean, we still need to code the program that will actually use this module, but trust me, that will be really easy!
 
-<!-- wp:paragraph -->
-<p>Ok, let's start and pretend that we want to create a program that logs all the file that are created or modified in the same directory of our program.</p>
-<!-- /wp:paragraph -->
+Ok, let's start and pretend that we want to create a program that logs all the file that are created or modified in the same directory of our program.
 
-<!-- wp:heading -->
-<h2>Step 1. Import some stuff</h2>
-<!-- /wp:heading -->
+## Step 1. Import some stuff
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>import time
+```python
+import time
 from watchdog.observers import Observer
-from watchdog.events import PatternMatchingEventHandler</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+from watchdog.events import PatternMatchingEventHandler
+```
 
-<!-- wp:paragraph -->
-<p>I won't explain these imports right now, they will be clear in a moment.</p>
-<!-- /wp:paragraph -->
+I won't explain these imports right now, they will be clear in a moment.
 
-<!-- wp:heading -->
-<h2>Step 2. Create the event handler</h2>
-<!-- /wp:heading -->
+## Step 2. Create the event handler
 
-<!-- wp:paragraph -->
-<p>The event handler is the object that will be notified when something happen on the filesystem you are monitoring.</p>
-<!-- /wp:paragraph -->
+The event handler is the object that will be notified when something happen on the filesystem you are monitoring.
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>if __name__ == &quot;__main__&quot;:
-    patterns = &quot;*&quot;
-    ignore_patterns = &quot;&quot;
+```python
+if __name__ == "__main__":
+    patterns = "*"
+    ignore_patterns = ""
     ignore_directories = False
     case_sensitive = True
-    my_event_handler = PatternMatchingEventHandler(patterns, ignore_patterns, ignore_directories, case_sensitive)</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+    my_event_handler = PatternMatchingEventHandler(patterns, ignore_patterns, ignore_directories, case_sensitive)
+```
 
-<!-- wp:paragraph -->
-<p>In my example I have used some variables just to made the configuration of the event handler a little bit easier to be undestood.<br>The "patterns" variable contains the file patterns we want to handle (in my scenario, I will handle all the files), the "ignore_patterns" variable contains the patterns that we don't want to handle, the "ignore_directories" is just a boolean that we can set to True if we want to be notified just for regular files (not for directories) and the "case_sensitive" variable is just another boolean that, if set to "True", made the patterns we previously introduced "case sensitive" (that's normally a good idea, unless you are working with stupid case-insensitive-file-systems... yeah, I'm talking about you Windows! :P ).</p>
-<!-- /wp:paragraph -->
+In my example I have used some variables just to made the configuration of the event handler a little bit easier to be undestood.\nThe "patterns" variable contains the file patterns we want to handle (in my scenario, I will handle all the files), the "ignore_patterns" variable contains the patterns that we don't want to handle, the "ignore_directories" is just a boolean that we can set to True if we want to be notified just for regular files (not for directories) and the "case_sensitive" variable is just another boolean that, if set to "True", made the patterns we previously introduced "case sensitive" (that's normally a good idea, unless you are working with stupid case-insensitive-file-systems... yeah, I'm talking about you Windows! :P ).
 
-<!-- wp:heading -->
-<h2>Step 3. Handle all the events</h2>
-<!-- /wp:heading -->
+## Step 3. Handle all the events
 
-<!-- wp:paragraph -->
-<p>Now that we have created the handler we need to write the code we want to run when the events are raised.<br>So, let's start creating four different functions that will be used when a file is modified, created, deleted or moved.</p>
-<!-- /wp:paragraph -->
+Now that we have created the handler we need to write the code we want to run when the events are raised.\nSo, let's start creating four different functions that will be used when a file is modified, created, deleted or moved.
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>def on_created(event):
-    print(f&quot;hey, {event.src_path} has been created!&quot;)
+```python
+def on_created(event):
+    print(f"hey, {event.src_path} has been created!")
 
 def on_deleted(event):
-    print(f&quot;what the f**k! Someone deleted {event.src_path}!&quot;)
+    print(f"what the f**k! Someone deleted {event.src_path}!")
 
 def on_modified(event):
-    print(f&quot;hey buddy, {event.src_path} has been modified&quot;)
+    print(f"hey buddy, {event.src_path} has been modified")
 
 def on_moved(event):
-    print(f&quot;ok ok ok, someone moved {event.src_path} to {event.dest_path}&quot;)</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+    print(f"ok ok ok, someone moved {event.src_path} to {event.dest_path}")
+```
 
-<!-- wp:paragraph -->
-<p>In our example we will just print out something regarding the events that has been captured. It goes without saying that this is just an example, we could execute any kind of code instead of these useless print functions...</p>
-<!-- /wp:paragraph -->
+In our example we will just print out something regarding the events that has been captured. It goes without saying that this is just an example, we could execute any kind of code instead of these useless print functions...
 
-<!-- wp:paragraph -->
-<p>And now, under the creation of our event handler (the code of the previous step) we need to specify to the handler that we want these functions to be called when the corresponding event is raised</p>
-<!-- /wp:paragraph -->
+And now, under the creation of our event handler (the code of the previous step) we need to specify to the handler that we want these functions to be called when the corresponding event is raised
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>my_event_handler.on_created = on_created
+```python
+my_event_handler.on_created = on_created
     my_event_handler.on_deleted = on_deleted
     my_event_handler.on_modified = on_modified
-    my_event_handler.on_moved = on_moved</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+    my_event_handler.on_moved = on_moved
+```
 
-<!-- wp:heading -->
-<h2>Step 4. Create an observer</h2>
-<!-- /wp:heading -->
+## Step 4. Create an observer
 
-<!-- wp:paragraph -->
-<p>We need another object, known as the observer, that will monitor our filesystem, looking for changes that will be handled by the event handler.</p>
-<!-- /wp:paragraph -->
+We need another object, known as the observer, that will monitor our filesystem, looking for changes that will be handled by the event handler.
 
-<!-- wp:paragraph -->
-<p>Let's create it right now.</p>
-<!-- /wp:paragraph -->
+Let's create it right now.
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>    path = &quot;.&quot;
+```python
+    path = "."
     go_recursively = True
     my_observer = Observer()
-    my_observer.schedule(my_event_handler, path, recursive=go_recursively)</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+    my_observer.schedule(my_event_handler, path, recursive=go_recursively)
+```
 
-<!-- wp:paragraph -->
-<p>As you can see, I have just created an object of the Observer class and then called the schedule method, passing to it:</p>
-<!-- /wp:paragraph -->
+As you can see, I have just created an object of the Observer class and then called the schedule method, passing to it:
 
-<!-- wp:list -->
-<ul><li>the event handler that will handle the event</li><li>the path to be monitored (in my case is ".", that's the current directory)</li><li>a boolean that allow me to catch all the event that occurs even in the sub directories of my current directory.</li></ul>
-<!-- /wp:list -->
+- the event handler that will handle the event
+- the path to be monitored (in my case is ".", that's the current directory)
+- a boolean that allow me to catch all the event that occurs even in the sub directories of my current directory.
 
-<!-- wp:heading -->
-<h2>Step 5. Start the observer</h2>
-<!-- /wp:heading -->
+## Step 5. Start the observer
 
-<!-- wp:paragraph -->
-<p>Ok, we almost finished our program, now we need just to start the observer thread.</p>
-<!-- /wp:paragraph -->
+Ok, we almost finished our program, now we need just to start the observer thread.
 
-<!-- wp:codemirror-blocks/code-block {"mode":"python","mime":"text/x-python"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>    my_observer.start()
+```python
+    my_observer.start()
     try:
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
         my_observer.stop()
-        my_observer.join()</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+        my_observer.join()
+```
 
-<!-- wp:paragraph -->
-<p>I think this snippet doesn't need any comments, does it? We are just starting the observer thread to get all the events.</p>
-<!-- /wp:paragraph -->
+I think this snippet doesn't need any comments, does it? We are just starting the observer thread to get all the events.
 
-<!-- wp:paragraph -->
-<p>Ok, if everything is correct the result should be the one you can see below.</p>
-<!-- /wp:paragraph -->
+Ok, if everything is correct the result should be the one you can see below.
 
-<!-- wp:heading -->
-<h2>Testing our new shiny watchdog</h2>
-<!-- /wp:heading -->
+## Testing our new shiny watchdog
 
-<!-- wp:paragraph -->
-<p>And now it's showtime guys, let's test our watchdog!</p>
-<!-- /wp:paragraph -->
+And now it's showtime guys, let's test our watchdog!
 
-<!-- wp:paragraph -->
-<p>Start the program from a terminal and you will see your cursor just hang. That's a good start.</p>
-<!-- /wp:paragraph -->
+Start the program from a terminal and you will see your cursor just hang. That's a good start.
 
-<!-- wp:paragraph -->
-<p>Now open a different terminal, move under the directory of your program and try to do something. For example, I have started vim (my favourite editor) to create a file:</p>
-<!-- /wp:paragraph -->
+Now open a different terminal, move under the directory of your program and try to do something. For example, I have started vim (my favourite editor) to create a file:
 
-<!-- wp:codemirror-blocks/code-block {"mode":"htmlmixed","mime":"text/html"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>$ vim dave.txt</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+```console
+$ vim dave.txt
+```
 
-<!-- wp:paragraph -->
-<p>by the time vim started, in my running console some statement has been printed:</p>
-<!-- /wp:paragraph -->
+by the time vim started, in my running console some statement has been printed:
 
-<!-- wp:codemirror-blocks/code-block {"mode":"htmlmixed","mime":"text/html"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>hey, ./.dave.txt.swp has been created!
-hey buddy, . has been modified</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+```console
+hey, ./.dave.txt.swp has been created!
+hey buddy, . has been modified
+```
 
-<!-- wp:paragraph -->
-<p>Wow, it works! When you try to create a file with Vim it start by creating a .swp file and that's what our program has detected, printing the first line. But why the second line? Well, if the current directory has a new file we can say that it's changed as well, can't we?</p>
-<!-- /wp:paragraph -->
+Wow, it works! When you try to create a file with Vim it start by creating a .swp file and that's what our program has detected, printing the first line. But why the second line? Well, if the current directory has a new file we can say that it's changed as well, can't we?
 
-<!-- wp:paragraph -->
-<p>Now I will try to save my file and...</p>
-<!-- /wp:paragraph -->
+Now I will try to save my file and...
 
-<!-- wp:codemirror-blocks/code-block {"mode":"htmlmixed","mime":"text/html"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>hey, ./dave.txt has been created!
-hey buddy, . has been modified</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+```console
+hey, ./dave.txt has been created!
+hey buddy, . has been modified
+```
 
-<!-- wp:paragraph -->
-<p>Ok, Vim has created my file (dave.txt) and my program has detected it! Well done!</p>
-<!-- /wp:paragraph -->
+Ok, Vim has created my file (dave.txt) and my program has detected it! Well done!
 
-<!-- wp:paragraph -->
-<p>Now I quit vim (for the record and for all the "Windows guys" that are currently reading this... you don't need to unplug the power cord of your pc to quit vim, it's enough to press the [esc] key and to type :q )</p>
-<!-- /wp:paragraph -->
+Now I quit vim (for the record and for all the "Windows guys" that are currently reading this... you don't need to unplug the power cord of your pc to quit vim, it's enough to press the [esc] key and to type :q )
 
-<!-- wp:codemirror-blocks/code-block {"mode":"htmlmixed","mime":"text/html"} -->
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre>what the f**k! Someone deleted ./.dave.txt.swp!
-hey buddy, . has been modified</pre></div>
-<!-- /wp:codemirror-blocks/code-block -->
+```console
+what the f**k! Someone deleted ./.dave.txt.swp!
+hey buddy, . has been modified
+```
 
-<!-- wp:paragraph -->
-<p>Ok, vim has deleted the temporary .swp file and the program has detected it. Mission accomplished! :)</p>
-<!-- /wp:paragraph -->
+Ok, vim has deleted the temporary .swp file and the program has detected it. Mission accomplished! :)
 
-<!-- wp:heading -->
-<h2>The bottom line</h2>
-<!-- /wp:heading -->
+## The bottom line
 
-<!-- wp:paragraph -->
-<p>In this article you have seen how easy it could be to set up a <a href="https://pypi.org/project/watchdog/">watchdog</a> in Python that monitors a filesystem and react when a change occurs.</p>
-<!-- /wp:paragraph -->
+In this article you have seen how easy it could be to set up a [watchdog](https://pypi.org/project/watchdog/) in Python that monitors a filesystem and react when a change occurs.
 
-<!-- wp:paragraph -->
-<p>If you want to find out more about the watchdog module, you can have a look at the <a href="https://pythonhosted.org/watchdog/">official documentation</a>.</p>
-<!-- /wp:paragraph -->
+If you want to find out more about the watchdog module, you can have a look at the [official documentation](https://pythonhosted.org/watchdog/).
 
-<!-- wp:paragraph -->
-<p>Happy Coding!<br>D.</p>
-<!-- /wp:paragraph -->
+Happy Coding!
+D.

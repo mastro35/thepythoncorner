@@ -11,10 +11,11 @@ redirect_from:
 ---
 If you have ever written a script in Python you surely know the importance of having a good command-line interface for your application.
 
-And this is why today I\'m posting here a link to another post I wrote for <em>Real Python</em> on this topic some months ago.
+And this is why today I'm posting here a link to another post I wrote for *Real Python* on this topic some months ago.
 
-<strong><a href="https://www.realpython.com">Real Python</a></strong> is one of the most important resources on the web about Python and I’m really proud to be part of that community full of brilliant people that share a common passion for this incredible programming language.
+**[Real Python](https://www.realpython.com)** is one of the most important resources on the web about Python and I'm really proud to be part of that community full of brilliant people that share a common passion for this incredible programming language.
 
-If you want to read this article just visit <a href="https://realpython.com/command-line-interfaces-python-argparse/">https://realpython.com/command-line-interfaces-python-argparse/</a>
+If you want to read this article just visit [this link](https://realpython.com/command-line-interfaces-python-argparse/)
 
-Happy Pythoning! D.
+Happy Pythoning!
+D.

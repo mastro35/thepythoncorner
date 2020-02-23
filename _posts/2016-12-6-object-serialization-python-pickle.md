@@ -14,7 +14,7 @@ tags:
 redirect_from:
   /2016/12/object-serialization-in-python
 ---
-Today we’re going to explore a wonderful feature that the Python library offers to you out of the box: the serialization. To serialize an object means to transform it in a format that can be stored, so as to be able to deserialize it later, recreating the original object from the serialized format. To do all these operations we will use the pickle module.
+Today we're going to explore a wonderful feature that the Python library offers to you out of the box: the serialization. To serialize an object means to transform it in a format that can be stored, so as to be able to deserialize it later, recreating the original object from the serialized format. To do all these operations we will use the pickle module.
 
 ## Pickling
 
@@ -43,8 +43,8 @@ print ("Would you like to see her pickled? Here she is!")
 print (my_pickled_mary)
 ```
 
-So, in the example above, we have created an instance of a sheep class and then we’ve pickled it, transforming our sheep instance into a simple array of bytes.
-It’s been easy, hasn’t it?
+So, in the example above, we have created an instance of a sheep class and then we've pickled it, transforming our sheep instance into a simple array of bytes.
+It's been easy, hasn't it?
 
 Now we can easily store the bytes array on a binary file or in a database field and restore it from our storage support in a later time to transform back this bunch of bytes in an object hierarchy.
 
@@ -78,7 +78,7 @@ binary_file.close()
 
 The process that takes a binary array and converts it to an object hierarchy is called unpickling.
 
-The unpickling process is done by using the load() function of the pickle module and returns a complete object hierarchy from a simple bytes array. Let’s try to use the load function on the example above:
+The unpickling process is done by using the load() function of the pickle module and returns a complete object hierarchy from a simple bytes array. Let's try to use the load function on the example above:
 
 ```Python
 import pickle
@@ -109,28 +109,28 @@ print (str.format("Dolly is {0} ", dolly.color))
 print (str.format("Mary is {0} ", mary.color))
 ```
 
-In this example you can see that after having pickled the first sheep object (Mary) we have unpickled it to another variable (Dolly) and so we have — in a sense — cloned Mary to create Dolly (Yes, we’re cloning sheep… lol!).
+In this example you can see that after having pickled the first sheep object (Mary) we have unpickled it to another variable (Dolly) and so we have — in a sense — cloned Mary to create Dolly (Yes, we're cloning sheep... lol!).
 
-It goes without saying that changing an attribute value on one of these objects the other one remain untouched because we haven’t just copied the reference to the original object, we have actually cloned the original object and its state to create a perfect copy in a completely different instance.
+It goes without saying that changing an attribute value on one of these objects the other one remain untouched because we haven't just copied the reference to the original object, we have actually cloned the original object and its state to create a perfect copy in a completely different instance.
 
 >Note: in this example we have cloned an object using the trick of pickling it and unpickling the resulting binary stream in another variable.
->This is ok and there are several languages where this approach could even be advised, but if you need to clone an object in Python it’s probably better to use the copy module of the standard lib. Since it’s designed to clone objects, it works far better.
+>This is ok and there are several languages where this approach could even be advised, but if you need to clone an object in Python it's probably better to use the copy module of the standard lib. Since it's designed to clone objects, it works far better.
 
 ## Some notes about pickling
 
-All I’ve said so far is just to whet your appetite because there’s a lot more we could say about pickling. One important thing to be known is that there are several types (or protocols) of pickling because this technic is evolving as the language evolves.
+All I've said so far is just to whet your appetite because there's a lot more we could say about pickling. One important thing to be known is that there are several types (or protocols) of pickling because this technic is evolving as the language evolves.
 
 So, there are currently 5 protocols of pickling:
 
 According to the [official documentation](https://docs.python.org/3.4/library/pickle.html#data-stream-format):
 
->Protocol version 0 is the original “human-readable” protocol and is backwards compatible with earlier versions of Python.
+>Protocol version 0 is the original "human-readable" protocol and is backwards compatible with earlier versions of Python.
 >Protocol version 1 is an old binary format which is also compatible with earlier versions of Python.
 >Protocol version 2 was introduced in Python 2.3. It provides much more efficient pickling of new-style classes. Refer to PEP 307 for information about improvements brought by protocol 2.
 >Protocol version 3 was added in Python 3.0. It has explicit support for bytes objects and cannot be unpickled by Python 2.x. This is the default protocol, and the recommended protocol when compatibility with other Python 3 versions is required.
 >Protocol version 4 was added in Python 3.4. It adds support for very large objects, pickling more kinds of objects, and some data format optimizations. Refer to PEP 3154 for information about improvements brought by protocol 4.
 
-Another thing that is important to keep in mind is that not every object is picklable. Some objects (like DB connections, handles to opened files etc…) can’t be pickled and trying to pickle an unpicklable object (or to unpickle an object that is not a valid pickle), a pickle.PickleError exception or one of its subclasses (PicklingError and UnpicklingError) is raised.
+Another thing that is important to keep in mind is that not every object is picklable. Some objects (like DB connections, handles to opened files etc...) can't be pickled and trying to pickle an unpicklable object (or to unpickle an object that is not a valid pickle), a pickle.PickleError exception or one of its subclasses (PicklingError and UnpicklingError) is raised.
 
 For example:
 
@@ -143,7 +143,7 @@ my_custom_pickle = bytes("this is unpicklable", encoding="UTF-8")
 my_new_object = pickle.loads(my_custom_pickle)
 ```
 
-The problem when you have unpicklable object in the hierarchy of the object you want to pickle is that this prevents you to serialize (and store) the entire object. Fortunately, Python offers you two convenient methods to specify what you want to pickle and how to re-initialize (during the unpickling process) the objects that you haven’t pickled before. These methods are __setstate__() and __getstate__()
+The problem when you have unpicklable object in the hierarchy of the object you want to pickle is that this prevents you to serialize (and store) the entire object. Fortunately, Python offers you two convenient methods to specify what you want to pickle and how to re-initialize (during the unpickling process) the objects that you haven't pickled before. These methods are __setstate__() and __getstate__()
 
 For example:
 

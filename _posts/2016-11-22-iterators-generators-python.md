@@ -31,9 +31,9 @@ Quite easy, but what if we would like to create an iterable object ourselves?
 ## The iteration protocol
 
 Creating an iterable object in Python is as easy as implementing the *iteration protocol*.
-Let’s pretend that we want to create an object that would let us iterate over the *Fibonacci sequence*. The Fibonacci sequence is a sequence of integer numbers characterized by the fact that every number after the first two is the sum of the two preceding ones. So the sequence starts with 0 and 1 and then each number that follows is just the sum of the two previous numbers in the sequence. So the third number is 1 (0+1), the fourth is 2 (1+1), the fifth is 3 (1+2), the sixth is 5 (2+3) and so on.
+Let's pretend that we want to create an object that would let us iterate over the *Fibonacci sequence*. The Fibonacci sequence is a sequence of integer numbers characterized by the fact that every number after the first two is the sum of the two preceding ones. So the sequence starts with 0 and 1 and then each number that follows is just the sum of the two previous numbers in the sequence. So the third number is 1 (0+1), the fourth is 2 (1+1), the fifth is 3 (1+2), the sixth is 5 (2+3) and so on.
 
-Enough said, let’s the code talk:
+Enough said, let's the code talk:
 
 ```python
 class fibonacci:
@@ -71,7 +71,7 @@ if __name__ == '__main__':
         print(fibonacci_number)
 ```
 
-As you can see, all we’ve done has been creating a class that implements the iteration protocol. This protocol consists in two methods:
+As you can see, all we've done has been creating a class that implements the iteration protocol. This protocol consists in two methods:
 
 - the `.__iter__()` method that returns the object we would iterate over
 - the `.__next__()` method that is called automatically on each iteration and that returns the value for the current iteration.
@@ -138,9 +138,9 @@ $ python mario.py
 832040
 ```
 
-Please note that once we have consumed the generator, we can’t use it anymore because generators in Python can’t be rewound.
+Please note that once we have consumed the generator, we can't use it anymore because generators in Python can't be rewound.
 
-So, if after the code above we tried to print out all the sequence again, we won’t get any values.
+So, if after the code above we tried to print out all the sequence again, we won't get any values.
 
 ```python
     # since the sequence is over, we will not get any value here
@@ -159,7 +159,7 @@ And if you need to use the generator again, you have to call the generator funct
         print(fibonacci_number)
 ```
 
-Now, if you can, take some time to debug the generator code above and look at how the values are generated and returned. You will find out that the values are generated in a lazy way, just when they need to be generated and then they are returned by the yield statement as it’s hit. Hence, the line after the yield is executed just when it needs to be executed when the next value is requested.
+Now, if you can, take some time to debug the generator code above and look at how the values are generated and returned. You will find out that the values are generated in a lazy way, just when they need to be generated and then they are returned by the yield statement as it's hit. Hence, the line after the yield is executed just when it needs to be executed when the next value is requested.
 
 About debugging the code I have to say that one of the best tool to write and debug Python code I know is from Microsoft and it's Visual Studio Code. It's really good and available for Windows, macOS and Linux for free.
 Playing with iterable objects
