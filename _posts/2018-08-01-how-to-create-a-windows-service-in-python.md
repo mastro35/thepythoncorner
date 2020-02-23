@@ -16,6 +16,8 @@ tags:
 redirect_from:
   /2018/08/how-to-create-a-windows-service-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/backslashes.png)
+
 Hi guys, today's post is just for the ones of you that work with the "OS of the misoriented slashes": Microsoft Windows. :)
 
 Have you ever had the need of writing a Python script that could run in background as a Windows Service? In this post, you will learn how to do it in less than 10 minutes, no jokes.

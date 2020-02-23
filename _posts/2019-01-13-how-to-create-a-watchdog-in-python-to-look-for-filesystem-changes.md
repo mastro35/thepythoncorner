@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes
 ---
+![teaser](https://imgs.xkcd.com/comics/vet.png)
+
 Hey guys, today's post is about how to create a watchdog in Python. But what is a "watchdog"?
 A watchdog is a little piece of software that monitors our filesystem looking for any changes (like the creation, change or deletion of a file or of a directory). When a change occurs, the watchdog report it to us raising a specific event that we can handle.
 For example, let's suppose you have developed a program that use a configuration file. Your program could set a watchdog to monitor that file and if the configuration file is modified you could think to reload it and apply the new configuration at runtime, without the need of restarting your program.

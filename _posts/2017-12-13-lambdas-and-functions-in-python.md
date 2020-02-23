@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2017/12/lambdas-and-functions-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/code_quality_2.png)
+
 [In my last post](https://www.thepythoncorner.com/2017/12/the-art-of-avoiding-nested-code), I discussed some ways to avoid nested code in Python and discussing the "*filter*" and "*map*" functions I mentioned the ***lambda functions***.
 
 After that article, some reader asked me to write a little more about this topic, so ... here I am. :)

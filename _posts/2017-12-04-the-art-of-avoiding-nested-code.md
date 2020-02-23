@@ -17,6 +17,8 @@ tags:
 redirect_from:
   /2017/12/the-art-of-avoiding-nested-code
 ---
+![teaser](https://imgs.xkcd.com/comics/flatland.png)
+
 Today's article is about nested code and how to avoid it.
 
 Why we should try to avoid nested code? Well the answer is inside your heart, and in your Python interpreter...

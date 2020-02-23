@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app
 ---
+![teaser](https://imgs.xkcd.com/comics/mail.png)
+
 Hey there! Now you are reading a quick but detailed guide on adding the essential functionality to your web app built with Python: email sending. From this post, you will learn about the capabilities of the native Python modules for email sending and then  get the practical steps for creating a message with images and attachments. With plenty of code examples, you will be able to craft and send your own emails using an SMTP server.
 
 ## Before we start

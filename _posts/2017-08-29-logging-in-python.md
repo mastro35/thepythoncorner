@@ -14,6 +14,8 @@ tags:
 redirect_from:
   /2017/08/logging-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/git_commit.png)
+
 One of the most underestimated topics that I've seen in my working experience is logs management. A lot of people don't care at all about logging the execution of their programs and I've seen a lot of code released in the production environment that doesn't log anything. To log seems to be a waste of time to them, especially if the code they're writing is apparently simple. So, why bother logging the execution of a program if the program can run great with no logs?
 
 Actually, logging the execution of your own program avoids you lots of headaches when something goes wrong in production and make your coding experience easier. Besides, logging a lot of debug information can save you time in writing comments, because your code is just well documented by the use of the logging, so to log is always a good idea in production as it is during the development, and that is true for any language you're using to code, not just in Python.

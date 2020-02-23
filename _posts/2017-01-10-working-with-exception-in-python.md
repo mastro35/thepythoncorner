@@ -16,6 +16,8 @@ tags:
 redirect_from:
   /2017/01/working-with-exception-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/compiler_complaint.png)
+
 According to the [official documentation]("https://docs.python.org/3/tutorial/errors.html), an exception is "an error detected during execution not unconditionally fatal". Let's start the interpreter and write:
 
 ```python

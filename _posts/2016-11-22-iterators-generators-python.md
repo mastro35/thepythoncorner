@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2016/11/iterators-and-generators-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/random_number.png)
+
 If you have written some code in Python, something more than the simple "Hello World" program, you have probably used iterable objects. Iterable objects are objects that conform to the *Iteration Protocol* and can hence be used in a loop.
 
 For example:

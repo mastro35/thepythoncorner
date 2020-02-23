@@ -9,6 +9,8 @@ categories:
 redirect_from:
   /2020/02/creating-command-line-interfaces-in-python-with-argparse
 ---
+![teaser](https://imgs.xkcd.com/comics/command_line_fu.png)
+
 If you have ever written a script in Python you surely know the importance of having a good command-line interface for your application.
 
 And this is why today I'm posting here a link to another post I wrote for *Real Python* on this topic some months ago.

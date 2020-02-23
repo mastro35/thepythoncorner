@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/refresh_types.png)
+
 If the first concern of a developer is to be sure that the code they write works well, the second one is to make sure that it run fast. This is expecially true when you're dealing with web applications, where the scalability of your application is a crucial topic. For this reason, one of the most important tool we can use to improve the speed of our code is the use of a cache system.
 
 A cache system is a component that stores data so that future requests for data we already served in the past, could be accomplished faster.\nThere are a lot of solutions that can be used to implement a cache system\nbut today I want to point out a specific solution that allows your Python code to use a cache for everyday use, without setting up a complex (and yet more powerful) system like [Redis](http://redis.io) or other: the package [cachetools](https://pypi.org/project/cachetools/).

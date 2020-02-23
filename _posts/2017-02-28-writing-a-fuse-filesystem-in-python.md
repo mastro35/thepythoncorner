@@ -16,6 +16,8 @@ tags:
 redirect_from:
   /2017/02/writing-a-fuse-filesystem-in-python
 ---
+![teaser](https://imgs.xkcd.com/comics/porn_folder.png)
+
 We ran into a problem last week. Our web application produces a lot of documents that have to be accessed frequently for a couple of months after they're created. However, in less than a year these documents will be almost never accessed anymore, but we need to keep them available for the web application and for tons of other legacy apps that *might* need to access them.
 
 Now, these documents take a lot of space on our *expensive but super fast storage system* (let's call it **primary storage system** or **PSS** from now on) and we would like to be able to move them on the *cheaper, not so good and yet quite slow storage system* (that we're going to call **secondary storage system** or **SSS**) when we believe that they will not be accessed anymore.

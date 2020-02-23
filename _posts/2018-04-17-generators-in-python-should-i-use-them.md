@@ -14,6 +14,8 @@ tags:
 redirect_from:
   /2018/04/generators-in-python-should-i-use-them
 ---
+![teaser](https://imgs.xkcd.com/comics/goto.png)
+
 Following a request of a reader, today we're going to discuss when to use iterators and generators in Python.
 
 First of all, it's important to know what iterators and generators are, so if you don't know exactly what they are, I suggest to have a look at [my previous article](https://www.thepythoncorner.com/2016/11/iterators-and-generators-in-python/) on this topic.

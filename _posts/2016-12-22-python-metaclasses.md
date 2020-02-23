@@ -17,6 +17,8 @@ tags:
 redirect_from:
   /2016/12/python-metaclasses
 ---
+![teaser](https://imgs.xkcd.com/comics/code_quality.png)
+
 Working with Python means working with objects because, in Python, **everything** is an object. So, for example:
 
 ```python

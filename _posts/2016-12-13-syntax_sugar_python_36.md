@@ -15,6 +15,8 @@ tags:
 redirect_from:
   /2016/12/syntax-sugar-in-python-3-6
 ---
+![teaser](https://imgs.xkcd.com/comics/formal_languages.png)
+
 On December the 8th [Guido van Rossum](https://www.twitter.com/@gvanrossum) (also known to be the [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) or the Python project) announced on his twitter account that Python 3.6 rc1 has been officially released. That means that if no major problems will be found with this latest version, the final release is just around the corner and it's scheduled to be released on December the 16th, carrying among other things also some improvements in the Python syntax.
 
 Let's have a look at this new "syntax sugar"!
