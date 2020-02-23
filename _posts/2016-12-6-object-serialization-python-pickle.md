@@ -1,5 +1,7 @@
 ---
 title: "Object Serialization in Python With the Pickle Module"
+date: 2016-12-06T00:00:49+01:00
+author: Davide Mastromatteo
 excerpt: "In this post, we will learn to serialize objects for storing the state of an object and cloning objects. Cool stuff, right?"
 header:
   teaser: https://imgs.xkcd.com/comics/expiration_date_high_score.png

@@ -1,5 +1,7 @@
 ---
 title: "Using Virtual Environments in Python"
+date: 2016-11-29T00:00:49+01:00
+author: Davide Mastromatteo
 excerpt: "virtualenv, virtualenv-wrapper, pyvenv, python3 -m venv... What are they? Here you will find everything you need to know about virtual environments in Python!"
 header:
   teaser: https://imgs.xkcd.com/comics/python.png

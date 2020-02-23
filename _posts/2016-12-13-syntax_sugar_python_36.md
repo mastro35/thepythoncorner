@@ -1,5 +1,7 @@
 ---
 title: "Syntax sugar in Python 3.6"
+date: 2016-12-13T00:00:49+01:00
+author: Davide Mastromatteo
 excerpt: "Let's have a quick look at the news about Python 3.6!"
 header:
   teaser: https://imgs.xkcd.com/comics/formal_languages.png
