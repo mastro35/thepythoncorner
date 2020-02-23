@@ -9,6 +9,8 @@ tags:
   - serialization
   - pickle
   - python
+redirect_from:
+  /2016/12/object-serialization-in-python
 ---
 Today we’re going to explore a wonderful feature that the Python library offers to you out of the box: the serialization. To serialize an object means to transform it in a format that can be stored, so as to be able to deserialize it later, recreating the original object from the serialized format. To do all these operations we will use the pickle module.
 

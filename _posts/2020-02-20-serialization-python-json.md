@@ -9,6 +9,8 @@ tags:
   - json
   - serialization
   - python
+redirect_from:
+  /2020/02/serialization-in-python-with-json
 ---
 In 2016 [I wrote a post about serialization in Python](https://www.thepythoncorner.com/2016/12/object-serialization-in-python/) by using the `pickle` Python module.
 

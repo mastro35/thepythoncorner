@@ -12,6 +12,8 @@ tags:
   - webtest
   - automation
   - python
+redirect_from:
+  /2016/11/web-test-automation-in-python
 ---
 A couple of days ago I was in the need of automating simple browsing on the internet.
 To be more specific I needed to visit my company website, click on a couple of specific links and then repeat this operation every few minutes. You are probably thinking that there is software that can perform what is called «automation test» but I am just too lazy to surf the web looking for a free program and writing code is really more fun so there was just one thing in my mind...

@@ -10,6 +10,8 @@ tags:
   - virtualenv
   - environments
   - python
+redirect_from:
+  /2016/11/using-virtual-environments-with-python
 ---
 Working with Python is like to have superpowers. When you need to do something and you don’t know where to start from, you can google your problem and usually, you get aware that someone has already had your problem and created a library for the community.
 Whichever is your need...

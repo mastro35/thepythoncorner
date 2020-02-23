@@ -9,6 +9,8 @@ tags:
   - file
   - lock
   - python
+redirect_from:
+  /2016/10/python-how-to-open-a-file-on-windows-without-locking-it
 ---
 When I use python I’m usually on Linux or macOS but last week I had to write a python script on Windows.  
 Yes, Windows! You know... that place where slashes are misoriented, drives are named with a single alphabet letter and “tail” and “grep” commands are usually considered less important than "Clippy".
