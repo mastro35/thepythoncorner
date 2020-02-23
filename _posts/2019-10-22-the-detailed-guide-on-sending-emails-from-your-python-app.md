@@ -71,7 +71,8 @@ with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
 
 Alternatively, you can try Yagmail, the dedicated Gmail/SMTP, which simplifies email sending with Gmail:
 
-```pythonimport yagmail
+```python
+import yagmail
 yag = yagmail.SMTP()
 contents = [
     "This is the body, and here is just text http://somedomain/image.png",
