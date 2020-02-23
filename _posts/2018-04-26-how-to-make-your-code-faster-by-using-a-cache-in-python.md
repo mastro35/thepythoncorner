@@ -13,7 +13,8 @@ tags:
   - Performance
   - Python
 redirect_from:
-  /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python
+  - /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python
+  - /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/refresh_types.png)
 

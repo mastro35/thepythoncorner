@@ -13,7 +13,8 @@ tags:
   - iterable
   - python
 redirect_from:
-  /2016/11/iterators-and-generators-in-python
+  - /2016/11/iterators-and-generators-in-python
+  - /2016/11/iterators-and-generators-in-python/  
 ---
 ![teaser](https://imgs.xkcd.com/comics/random_number.png)
 

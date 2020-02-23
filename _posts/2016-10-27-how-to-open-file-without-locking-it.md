@@ -12,7 +12,8 @@ tags:
   - lock
   - python
 redirect_from:
-  /2016/10/python-how-to-open-a-file-on-windows-without-locking-it
+  - /2016/10/python-how-to-open-a-file-on-windows-without-locking-it
+  - /2016/10/python-how-to-open-a-file-on-windows-without-locking-it/
 ---
 ![teaser](https://imgs.xkcd.com/comics/still_in_use.png)
 

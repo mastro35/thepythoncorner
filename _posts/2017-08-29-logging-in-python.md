@@ -12,7 +12,8 @@ tags:
   - Logging
   - Python
 redirect_from:
-  /2017/08/logging-in-python
+  - /2017/08/logging-in-python
+  - /2017/08/logging-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/git_commit.png)
 

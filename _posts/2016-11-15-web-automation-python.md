@@ -15,7 +15,8 @@ tags:
   - automation
   - python
 redirect_from:
-  /2016/11/web-test-automation-in-python
+  - /2016/11/web-test-automation-in-python
+  - /2016/11/web-test-automation-in-python/  
 ---
 ![teaser](https://imgs.xkcd.com/comics/turing_test.png)
 

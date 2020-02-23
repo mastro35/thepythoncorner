@@ -14,7 +14,8 @@ tags:
   - Linux
   - Python
 redirect_from:
-  /2017/02/writing-a-fuse-filesystem-in-python
+  - /2017/02/writing-a-fuse-filesystem-in-python
+  - /2017/02/writing-a-fuse-filesystem-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/porn_folder.png)
 

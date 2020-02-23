@@ -14,7 +14,8 @@ tags:
   - Programming
   - Python
 redirect_from:
-  /2017/01/working-with-exception-in-python
+  - /2017/01/working-with-exception-in-python
+  - /2017/01/working-with-exception-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/compiler_complaint.png)
 

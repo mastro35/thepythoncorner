@@ -13,7 +13,8 @@ tags:
   - Python
   - watchdog
 redirect_from:
-  /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes
+  - /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes
+  - /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes/
 ---
 ![teaser](https://imgs.xkcd.com/comics/vet.png)
 

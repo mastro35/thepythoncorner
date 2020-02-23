@@ -13,7 +13,8 @@ tags:
   - Programming
   - Python
 redirect_from:
-  /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app
+  - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app
+  - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app/
 ---
 ![teaser](https://imgs.xkcd.com/comics/mail.png)
 

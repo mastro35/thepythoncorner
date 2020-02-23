@@ -13,7 +13,8 @@ tags:
   - python 3.6
   - python
 redirect_from:
-  /2016/12/syntax-sugar-in-python-3-6
+  - /2016/12/syntax-sugar-in-python-3-6
+  - /2016/12/syntax-sugar-in-python-3-6/
 ---
 ![teaser](https://imgs.xkcd.com/comics/formal_languages.png)
 

@@ -12,7 +12,8 @@ tags:
   - pickle
   - python
 redirect_from:
-  /2016/12/object-serialization-in-python
+  - /2016/12/object-serialization-in-python
+  - /2016/12/object-serialization-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/expiration_date_high_score.png)
 

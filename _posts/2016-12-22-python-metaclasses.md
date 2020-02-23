@@ -15,7 +15,8 @@ tags:
   - Programming
   - Python
 redirect_from:
-  /2016/12/python-metaclasses
+  - /2016/12/python-metaclasses
+  - /2016/12/python-metaclasses/
 ---
 ![teaser](https://imgs.xkcd.com/comics/code_quality.png)
 

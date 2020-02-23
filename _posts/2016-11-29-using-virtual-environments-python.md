@@ -13,7 +13,8 @@ tags:
   - environments
   - python
 redirect_from:
-  /2016/11/using-virtual-environments-with-python
+  - /2016/11/using-virtual-environments-with-python
+  - /2016/11/using-virtual-environments-with-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/python.png)
 

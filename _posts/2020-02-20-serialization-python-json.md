@@ -12,7 +12,8 @@ tags:
   - serialization
   - python
 redirect_from:
-  /2020/02/serialization-in-python-with-json
+  - /2020/02/serialization-in-python-with-json
+  - /2020/02/serialization-in-python-with-json/
 ---
 ![teaser](https://imgs.xkcd.com/comics/wanna_see_the_code.png)
 

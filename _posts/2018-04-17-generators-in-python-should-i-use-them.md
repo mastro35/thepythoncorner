@@ -12,7 +12,8 @@ tags:
   - Generators
   - Python
 redirect_from:
-  /2018/04/generators-in-python-should-i-use-them
+  - /2018/04/generators-in-python-should-i-use-them
+  - /2018/04/generators-in-python-should-i-use-them/
 ---
 ![teaser](https://imgs.xkcd.com/comics/goto.png)
 

@@ -15,7 +15,8 @@ tags:
   - Maps
   - Python
 redirect_from:
-  /2017/12/the-art-of-avoiding-nested-code
+  - /2017/12/the-art-of-avoiding-nested-code
+  - /2017/12/the-art-of-avoiding-nested-code/
 ---
 ![teaser](https://imgs.xkcd.com/comics/flatland.png)
 

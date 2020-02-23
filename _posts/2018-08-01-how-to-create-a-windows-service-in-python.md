@@ -14,7 +14,8 @@ tags:
   - Services
   - Windows
 redirect_from:
-  /2018/08/how-to-create-a-windows-service-in-python
+  - /2018/08/how-to-create-a-windows-service-in-python
+  - /2018/08/how-to-create-a-windows-service-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/backslashes.png)
 

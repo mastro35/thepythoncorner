@@ -7,7 +7,8 @@ header:
 categories:
   - Dev
 redirect_from:
-  /2020/02/creating-command-line-interfaces-in-python-with-argparse
+  - /2020/02/creating-command-line-interfaces-in-python-with-argparse
+  - /2020/02/creating-command-line-interfaces-in-python-with-argparse/
 ---
 ![teaser](https://imgs.xkcd.com/comics/command_line_fu.png)
 
