@@ -162,6 +162,10 @@ and now your map is ready to be shown:
 map
 ```
 
+Et voilà:
+
+![map](../images/map.png)
+
 Oh my God... 888 cases right now in Italy! ... it's time to go now!
 
 Bye  
