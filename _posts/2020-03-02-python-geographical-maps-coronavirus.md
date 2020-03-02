@@ -164,7 +164,7 @@ map
 
 Et voilà:
 
-![map]https://mastro35.github.io/thepythoncorner/images/map.png)
+![map](https://mastro35.github.io/thepythoncorner/images/map.png)
 
 Oh my God... 888 cases right now in Italy! ... it's time to go now!
 
