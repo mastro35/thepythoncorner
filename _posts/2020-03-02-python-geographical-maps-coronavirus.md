@@ -19,7 +19,7 @@ redirect_from:
   - 
 ---
 ![teaser](https://imgs.xkcd.com/comics/colds.png)
-As you may know, I live in Italy, a beautiful country made famous by style, fashion, and food. But in the last days, we've become famous also for something a little less cool: the [Coronavirus(https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_outbreak).
+As you may know, I live in Italy, a beautiful country made famous by style, fashion, and food. But in the last days, we've become famous also for something a little less cool: the [Coronavirus](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_outbreak).
 
 At the end of February, in fact, we have become overnight the third country with more infections in the world, after China and South Korea. And Milan (the city I live in) is one of the most affected Italian cities.
 
@@ -162,7 +162,7 @@ and now your map is ready to be shown:
 map
 ```
 
-Oh my God... 888 cases right now in Italy! ... gotta go now!
+Oh my God... 888 cases right now in Italy! ... it's time to go now!
 
-Bye
+Bye  
 D.
