@@ -18,3 +18,10 @@ Davide Mastromatteo:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mastro35"
+
+Andrew Zapisotskyi:
+  name   : "Andrew Zapisotskyi"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mailtrap.io"
