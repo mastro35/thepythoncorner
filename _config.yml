@@ -63,7 +63,7 @@ author:
   links  :
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.thepythoncorner.com"
+      url: "https://thepythoncorner.com"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:info@thepythoncorner.com"
