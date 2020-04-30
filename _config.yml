@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Python Corner
-email: mastro35@gmail.com
+email: info@thepythoncorner.com
 description: >- # this means to ignore newlines until "baseurl:"
   only for Pythonistas
-twitter_username: mastro35
-github_username: mastro35
+twitter_username: thepythoncorner
+# github_username: mastro35
 minimal_mistakes_skin: dark
 search: true
 
@@ -57,22 +57,19 @@ plugins:
   - jekyll-redirect-from
 
 author:
-  name   : "Davide Mastromatteo"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Developer and editor of this magic site. Apple user, Python and Swift addicted. NFL, Rugby and Chess lover. Constantly hungry and foolish."
-  links:
+  name   : "The Python Corner"
+  avatar : "/assets/images/logob.png"
+  bio    : "only for Pythonistas!"
+  links  :
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.thepythoncorner.com"
+      url: "https://thepythoncorner.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:info@thepythoncorner.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mastro35"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mastro35"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mastro35"
+      url: "https://twitter.com/thepythoncorner"
 
 footer:
   links:
