@@ -57,7 +57,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea — let's do more of those!
 ```
 
-Now relax, breath, and read carefully all the statements, three times each.\nStop at the fifth statement and start meditating about that.
+Now relax, breath, and read carefully all the statements, three times each.
+Stop at the fifth statement and start meditating about that.
 
 > Flat is better than nested
 > Flat is better than nested
@@ -108,7 +109,7 @@ But list comprehension makes possible to do something more than just filter out 
 my_squared_odd_numbers = [x*x for x in my_input_numbers if x%2 != 0]
 ```
 
-Or again, let's say that you want to create a list of tuples where you will put\nall the combinations of the (integer) numbers between 1 and 90 taken 2 at a time (quite common if you play the Italian lottery), how can you do this?
+Or again, let's say that you want to create a list of tuples where you will put all the combinations of the (integer) numbers between 1 and 90 taken 2 at a time (quite common if you play the Italian lottery), how can you do this?
 
 ```python
 ambi = [(x, y) for x in range(1,91) for y in range(x+1,91)]

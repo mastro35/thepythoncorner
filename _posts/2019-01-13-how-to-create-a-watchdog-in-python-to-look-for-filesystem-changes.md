@@ -30,7 +30,8 @@ Now, create your virtual environment (optional but raccomended... at least by me
 pip install watchdog
 ```
 
-Done, we have almost finished, haven't we?\nI mean, we still need to code the program that will actually use this module, but trust me, that will be really easy!
+Done, we have almost finished, haven't we?
+I mean, we still need to code the program that will actually use this module, but trust me, that will be really easy!
 
 Ok, let's start and pretend that we want to create a program that logs all the file that are created or modified in the same directory of our program.
 
@@ -57,11 +58,11 @@ if __name__ == "__main__":
     my_event_handler = PatternMatchingEventHandler(patterns, ignore_patterns, ignore_directories, case_sensitive)
 ```
 
-In my example I have used some variables just to made the configuration of the event handler a little bit easier to be undestood.\nThe "patterns" variable contains the file patterns we want to handle (in my scenario, I will handle all the files), the "ignore_patterns" variable contains the patterns that we don't want to handle, the "ignore_directories" is just a boolean that we can set to True if we want to be notified just for regular files (not for directories) and the "case_sensitive" variable is just another boolean that, if set to "True", made the patterns we previously introduced "case sensitive" (that's normally a good idea, unless you are working with stupid case-insensitive-file-systems... yeah, I'm talking about you Windows! :P ).
+In my example I have used some variables just to made the configuration of the event handler a little bit easier to be undestood.The "patterns" variable contains the file patterns we want to handle (in my scenario, I will handle all the files), the "ignore_patterns" variable contains the patterns that we don't want to handle, the "ignore_directories" is just a boolean that we can set to True if we want to be notified just for regular files (not for directories) and the "case_sensitive" variable is just another boolean that, if set to "True", made the patterns we previously introduced "case sensitive" (that's normally a good idea, unless you are working with stupid case-insensitive-file-systems... yeah, I'm talking about you Windows! :P ).
 
 ## Step 3. Handle all the events
 
-Now that we have created the handler we need to write the code we want to run when the events are raised.\nSo, let's start creating four different functions that will be used when a file is modified, created, deleted or moved.
+Now that we have created the handler we need to write the code we want to run when the events are raised.So, let's start creating four different functions that will be used when a file is modified, created, deleted or moved.
 
 ```python
 def on_created(event):

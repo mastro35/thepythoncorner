@@ -111,8 +111,7 @@ class my_derived_class(my_base_class):
 a_class = my_derived_class()
 ```
 
-If you try this example, you will see that the last line (the one that tries to instantiate the derived class) will raise\n
-the following exception:
+If you try this example, you will see that the last line (the one that tries to instantiate the derived class) will raise the following exception:
 
 ```console
 TypeError: Can't instantiate abstract class my_derived_class with abstract methods foo

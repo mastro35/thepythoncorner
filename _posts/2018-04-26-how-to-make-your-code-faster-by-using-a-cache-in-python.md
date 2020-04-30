@@ -20,7 +20,7 @@ redirect_from:
 
 If the first concern of a developer is to be sure that the code they write works well, the second one is to make sure that it run fast. This is expecially true when you're dealing with web applications, where the scalability of your application is a crucial topic. For this reason, one of the most important tool we can use to improve the speed of our code is the use of a cache system.
 
-A cache system is a component that stores data so that future requests for data we already served in the past, could be accomplished faster.\nThere are a lot of solutions that can be used to implement a cache system\nbut today I want to point out a specific solution that allows your Python code to use a cache for everyday use, without setting up a complex (and yet more powerful) system like [Redis](http://redis.io) or other: the package [cachetools](https://pypi.org/project/cachetools/).
+A cache system is a component that stores data so that future requests for data we already served in the past, could be accomplished faster. There are a lot of solutions that can be used to implement a cache system but today I want to point out a specific solution that allows your Python code to use a cache for everyday use, without setting up a complex (and yet more powerful) system like [Redis](http://redis.io) or other: the package [cachetools](https://pypi.org/project/cachetools/).
 
 As always, let's make the code talk for us! :)
 
@@ -68,7 +68,8 @@ What can we do?
 
 Well, this seems the perfect function that can benefit from the use of a cache system. The candy price is not going to vary so often and even if it change, we could assume that it's ok if it's updated on our system within 5 minutes, with no hurry.
 
-So, how can we implement this behaviour?\nIt's super easy, we need just three code lines.
+So, how can we implement this behaviour?
+It's super easy, we need just three code lines.
 
 ```python
 import time
