@@ -17,6 +17,12 @@ redirect_from:
 ---
 ![teaser](https://imgs.xkcd.com/comics/expiration_date_high_score.png)
 
+**DISCLAMER**: There's a newer (and probably better) [article](https://realpython.com/python-pickle-module/) about this topic that I wrote for [Real Python](https://realpython.com) website.
+
+It's longer and more detailed and it also have a section about the security concern when using the pickle module, so... I want to be honest and I suggest you to read [that article](https://realpython.com/python-pickle-module/) ... but if you like it, don't forget to come back here and [buy me a coffe](https://www.buymeacoffee.com/dXjDHmt)! :) 
+
+---
+
 Today we're going to explore a wonderful feature that the Python library offers to you out of the box: the serialization. To serialize an object means to transform it in a format that can be stored, so as to be able to deserialize it later, recreating the original object from the serialized format. To do all these operations we will use the pickle module.
 
 ## Pickling
@@ -203,7 +209,9 @@ my_new_zen_object = pickle.loads(my_pickled_zen_object)
 print(str.format("I'm {0}, and I don't have a beginner mind yet because I've meditated only {1} times'", my_new_zen_object.name, my_new_zen_object.number_of_meditations))
 ```
 
-This was just a brief introduction to the pickle module, for more information about the pickle module visit the [official documentation](https://docs.python.org/3.4/library/pickle.html) and if you want more information about the "beginners mind", buy [Zen Mind, Beginner's Mind by Shunryu Suzuki](https://www.amazon.co.uk/gp/product/B00M0D8110/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00M0D8110&linkCode=as2&tag=mastro3509-21) using this sponsored Amazon links and you will help to support The Python corner!
+## The security concern
+
+Now you know about what does it means to serialize and deserialize objects in Python but... have you ever tought at what could it means from a security perspective? If not, go ahead and have a loot to [this article I wrote for "Real Python"](https://realpython.com/python-pickle-module/). It has a lot of details and a specific section about the security topic.  
 
 Enjoy!
 D.
