@@ -15,6 +15,7 @@ tags:
 redirect_from:
   - /2017/12/lambdas-and-functions-in-python
   - /2017/12/lambdas-and-functions-in-python/
+  - /2018/05/lambdas-and-functions-in-python.html
 ---
 ![teaser](https://imgs.xkcd.com/comics/code_quality_2.png)
 
