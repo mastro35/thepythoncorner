@@ -5,8 +5,8 @@ main:
     url: https://shop.spreadshirt.com/the-python-corner/
   - title: "Newsletter"
     url: https://buttondown.email/thepythoncorner
-  - title: "Manning Publications"
-    url: http://mng.bz/PAM2
+#  - title: "Manning Publications"
+#    url: http://mng.bz/PAM2
 
 #  - title: "Categories"
 #    url: /categories/
