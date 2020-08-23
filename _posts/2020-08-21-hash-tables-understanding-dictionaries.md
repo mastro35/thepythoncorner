@@ -146,7 +146,7 @@ A hash table is typically implemented by creating a variable number of **buckets
 
 In the example below, you can find an implementation of a basic hash table in Python. This is just an implementation to give you the idea of how a hash table could work because as you will know later, in Python there's no need to create your custom implementation of hash tables since they are implemented as dictionaries. Let's see how this implementation works:
 
-```python linenums="1"
+```python
 import pprint
 
 class Hashtable:
@@ -242,7 +242,7 @@ In the open addressing strategy, if the bucket you should use is busy, you just 
 To implement this solution, you need to do a couple of changes to both how you assign buckets to new elements and how you retrieve values for a key.
 Starting from the `_assign_buckets()` function, you have to initialize your buckets with a default value and keep looking for an empty bucket if the one you should use has been already taken:
 
-```python linenums="8"
+```python
     def _assign_buckets(self, elements):
         self.buckets = [None] * self.bucket_size
 
@@ -257,11 +257,11 @@ Starting from the `_assign_buckets()` function, you have to initialize your buck
             self.buckets[index] = ((key, value))
 ```
 
-As you can see, in line 9 all the buckets are set to a default `None` value before the assignment, and in line 15 the `while` loop keeps looking for an empty bucket to store the data.
+As you can see, all the buckets are set to a default `None` value before the assignment, and the `while` loop keeps looking for an empty bucket to store the data.
 
 Since the assignment of the buckets is changed, also the retrival process should change as well, because in the `get_value()` method you now need to check the value of the key to be sure that the data you found was the one you were looking for:
 
-```python linenums="21"
+```python
     def get_value(self, input_key):
         hashed_value = hash(input_key)
         index = hashed_value % self.bucket_size
@@ -272,7 +272,7 @@ Since the assignment of the buckets is changed, also the retrival process should
             index = (index + 1) % self.bucket_size
 ```
 
-During the lookup process, in the  `get_value()` method at line 24 you use the `None` value to check when you need to stop looking for a key and in line 26 you check the key of the data to be sure that you are returning the correct value.
+During the lookup process, in the  `get_value()` method you use the `None` value to check when you need to stop looking for a key and then you check the key of the data to be sure that you are returning the correct value.
 
 Running the example above, the key for `Italy` collided with a previously inserted element (`France`) and for this reason has been relocated to the first free bucket available. However, the search for `Italy` worked as expected:
 
