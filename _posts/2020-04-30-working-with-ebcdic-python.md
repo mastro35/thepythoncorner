@@ -14,7 +14,7 @@ tags:
   - IBM
   - Mainframe
 ---
-![teaser](https://imgs.xkcd.com/comics/the_history_of_unicode.png)
+![teaser](https://imgs.xkcd.com/comics/the_history_of_unicode.png)  
 A couple of months ago I had to rewrite a program that used to be executed on a IBM System Z9. For those of you who don't know what I'm talking about... "it's a [mainframe](https://en.wikipedia.org/wiki/IBM_System_z9), kiddo"!
 
 However, even if I do know what a mainframe is, when I looked at the input files I was having to work with, I was like... "oh my gosh, what is this stuff?!?!"
