@@ -9,7 +9,7 @@ categories:
   - Dev
 tags:
   - hash tables
-  - dctionaries
+  - dictionaries
   - python
 ---
 ![teaser](https://imgs.xkcd.com/comics/password_strength.png)
