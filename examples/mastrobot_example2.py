@@ -128,7 +128,7 @@ def calculate_biorhythm(birthdate):
     return biorhythm
 
 def main():
-    TOKEN = "1432597051:AAHyX3CPg_gm5TNeneBHYbX6TqZrdkB7DHA"
+    TOKEN = "xxx"
 
     # create the updater, that will automatically create also a dispatcher and a queue to
     # make them dialoge
