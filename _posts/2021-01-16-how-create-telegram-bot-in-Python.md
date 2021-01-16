@@ -117,7 +117,7 @@ $ python mastrobot_example.py
 
 and now, let's start chatting with our new bot:
 
-![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png){: .align-center}
+![bot1](https://mastro35.github.io/thepythoncorner/images/bot1.png){: .align-center}
 
 It works!
 
@@ -446,7 +446,7 @@ if __name__ == '__main__':
 
 It's time to test it, right?
 
-![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png){: .align-center}
+![bot2](https://mastro35.github.io/thepythoncorner/images/bot2.png){: .align-center}
 
 Oh my gosh... I hope you won't find too many mistakes in this article, but in that case bear with me, my intellectual cycle today is only at 28%... that's not so good uh?
 
