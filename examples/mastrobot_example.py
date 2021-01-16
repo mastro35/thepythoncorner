@@ -19,7 +19,7 @@ def text(update, context):
     update.message.reply_text(f'did you said "{text_received}" ?')
 
 def main():
-    TOKEN = "1432597051:AAHyX3CPg_gm5TNeneBHYbX6TqZrdkB7DHA"
+    TOKEN = "xxx"
 
     # create the updater, that will automatically create also a dispatcher and a queue to 
     # make them dialoge
