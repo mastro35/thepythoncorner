@@ -14,25 +14,25 @@ tags:
 ---
 ![teaser](https://imgs.xkcd.com/comics/android_girlfriend.png)
 
-Creating a telegram bot with Python in minutes may seem a clickbait title for a post, but trust me, it's possible. If you're going through a boring afternoon or you're locked down due to COVID restriction and you want to do something different, keep reading and let's create our first Python Telegram bot! :)
+Creating a telegram bot with Python in minutes may seem like a clickbait title for a post, but trust me, it's possible. If you're going through a boring afternoon or you're locked down due to COVID restriction and you want to do something different, keep reading and let's create our first Python Telegram bot! :)
 
-For this project all you will have to use is the  [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) package that's basically a wrapper around telegram APIs. Python Telegram Bot is fully compatible with Python 3.6+ and will make developing a Telegram Bot a piece of cake.
+For this project, all you will have to use is the  [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) package that's basically a wrapper around telegram APIs. Python Telegram Bot is fully compatible with Python 3.6+ and will make developing a Telegram Bot a piece of cake.
 
-So, let's start by installing this package (I strongly reccomend to use a virtual environment for this kind of things: if you don't know how to do it, just look at this [old article](https://thepythoncorner.com/dev/using-virtual-environments-python/) or stay tuned, because I'm going to write something about it soon... ;):
+So, let's start by installing this package (I strongly recommend to use a virtual environment for this kind of things: if you don't know how to do it, just look at this [old article](https://thepythoncorner.com/dev/using-virtual-environments-python/) or stay tuned, because I'm going to write something about it soon...
 
 $ pip install python-telegram-bot --upgrade
 
 Now that you have installed the package, let's start with creating our first bot. And guess what? You don't need any Python to create a bot, you just need to chat with the Telegram **BotFather** account.
 
-Once you start chatting with the *BotFather* bot, you just need to issue the `/newbot` command and answer the questions of *BotFather* will ask you, that are the name of your bot (it's the display name) and the username of your bot.
+Once you start chatting with the *BotFather* bot, you just need to issue the `/newbot` command and answer the questions of *BotFather* will ask you: the name of your bot (it's the display name) and the username of your bot.
 
 ![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png){: .align-center}
 
 ![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png){: .align-center}
 
-That's it, your bot is ready! There are a lot of other stuff that you can ask to BotFather (like changing the profile pic of your bot, for example) but for this basic tutorial we won't need anything else.
+That's it, your bot is ready! There is a lot of other stuff that you can ask to BotFather (like changing the profile pic of your bot, for example) but for this basic tutorial, we won't need anything else.
 
-Now, you're going to face a tough decision: what will your bot do? The bot we will create with this example will give vistors informations aboyut their *biorhythm*. If you don't know what a biorhythm is, [check this page](https://en.wikipedia.org/wiki/Biorhythm_(pseudoscience)) on wikipedia and you will find out two important things:
+Now, you're going to face a tough decision: what will your bot do? The bot we will create with this example will give visitors information about their *biorhythm*. If you don't know what a biorhythm is, [check this page](https://en.wikipedia.org/wiki/Biorhythm_(pseudoscience)) on Wikipedia and you will find out two important things:
 
 1. According to the theory of biorhythms "a person's life is influenced by rhythmic biological cycles that affect his or her ability in various domains, such as mental, physical, and emotional activity".
 2. The proposal has been independently tested and, consistently, **no validity** for it has been found. :)
@@ -43,9 +43,9 @@ But don't worry: at the end of the article, you will be able to program any kind
 
 Now, let's see how can we program the bot.
 
-The **python-telegram-bot** package consists in a wrapper around Telegram APIs. The Telegram APIs are exposed via the `telegram.Bot` class. However, on top of this class they have buit the `telegram.ext` module, that will make your work a lot easier, allowing you to create a bot in minutes.
+The **python-telegram-bot** package consists of a wrapper around Telegram APIs. The Telegram APIs are exposed via the `telegram.Bot` class. However, on top of this class, they have built the `telegram.ext` module, which will make your work a lot easier, allowing you to create a bot in minutes.
 
-The `telegram.ext` module contains a lot of classes, but the most important two are `telegram.ext.Updater` and `telegram.ext.Dispatcher`. The `Updater` class is responsible of fetching new updates from Telegram, and passing them to the `Dispatcher` class, that will handle them through a `Handler` class.
+The `telegram.ext` module contains a lot of classes, but the most important two are `telegram.ext.Updater` and `telegram.ext.Dispatcher`. The `Updater` class is responsible for fetching new updates from Telegram and passing them to the `Dispatcher` class, which will handle them through a `Handler` class.
 
 So let's start coding!
 
@@ -98,15 +98,15 @@ if __name__ == '__main__':
     main()
 ```
 
-This first example is quite trivial. In the main function we have created the `Updater` class, that have automatically created for us a `Dispatcher` object, available through the `.dispatcher` property of the `Updater` class.
+This first example is quite trivial. In the main function, we have created the `Updater` class, which has automatically created for us a `Dispatcher` object, available through the `.dispatcher` property of the `Updater` class.
 
 Then, we've added some handlers for:
 * the `/start` command (we simply call the callback function `start()` that reply to the user with an informative message) 
 * the `/help` command (we simply call the callback function `help()` that reply to the user with an informative message)
-* what happen if an error occure while dispatching messages (we simply call the callback function `error()`)
-* what happen if the user write something that is not a command (we simply call the callback function `text()` that reply to the user with the same text received)
+* what happens if an error occurs while dispatching messages (we simply call the callback function `error()`)
+* what happens if the user writes something that is not a command (we simply call the callback function `text()` that reply to the user with the same text received)
 
-Fionally we have written the callback functions, that use the update object received to send message to the user.
+Finally, we have written the callback functions, that use the update object received to send messages to the user.
 
 Let's test this primitive bot.
 Start your bot with:
@@ -121,11 +121,11 @@ and now, let's start chatting with our new bot:
 
 It works!
 
-Now, we wanted to create a bot to tell the user their daily biorythm, right? This will be easy, we will use the `/start` command to get the birthday of the user as the chat starts, and then we will create a function to handle a new `/biorhythm` command to answer the user with its personal biorhythm.
+Now, we wanted to create a bot to tell the user their daily biorhythm, right? This will be easy, we will use the `/start` command to get the birthday of the user as the chat starts, and then we will create a function to handle a new `/biorhythm` command to answer the user with its personal biorhythm.
 
-Let's start with the first part: knowing the user birthday.
+Let's start with the first part: knowing the user's birthday.
 
-The first things to do is to change the function that handle the `/start` command. We will ask the user it's birthday and we will call a function to start the interaction with the user. To make it simple, we will ask the user the year, the month and the day they were born in.
+The first thing to do is to change the function that handles the `/start` command. We will ask the user it's birthday and we will call a function to start the interaction with the user. To make it simple, we will ask the user the year, the month, and the day they were born in.
 
 ```python
 # function to handle the /start command
@@ -135,9 +135,9 @@ def start(update, context):
     start_getting_birthday_info(update, context)
 ```
 
-As you can see, in the `update` parameter you will find also some useful information about the user, like its name. However, since this is just a starting tutorial to wet your appetite, I won't discuss here the thousand of things you will be able to do with this package, if you want to know everything about the *python-telegram-bot* package, just check the [official documentation](https://python-telegram-bot.readthedocs.io/en/stable/).
+As you can see, in the `update` parameter you will find also some useful information about the user, like its name. However, since this is just a starting tutorial to whet your appetite, I won't discuss here the thousand of things you will be able to do with this package, if you want to know everything about the *python-telegram-bot* package, just check the [official documentation](https://python-telegram-bot.readthedocs.io/en/stable/).
 
-Now, at the very beginning of our script we will define a new variable `STATE` that will be used to understand to what question the user in answering. Don't worry if you can't get it now, you will get it in a minute.
+Now, at the very beginning of our script, we will define a new variable `STATE` that will be used to understand what question the user is answering. Don't worry if you can't get it now, you will get it in a minute.
 
 ```python
 STATE = None
@@ -156,7 +156,7 @@ def start_getting_birthday_info(update, context):
     update.message.reply_text(f"I would need to know your birthday, so tell me what year did you born in...")
 ```
 
-As you can see, at the beginning we set the variable `STATE` to the value `BIRTH_YEAR` so that we will know, when the user will answer, that it was answering to the birth year question. Then, we just send a message to ask for the year of birth.
+As you can see, at the beginning we set the variable `STATE` to the value `BIRTH_YEAR` so that we will know, when the user will answer, that it was answering the birth year question. Then, we just send a message to ask for the year of birth.
 
 Now, the user will answer with a normal text, right? So we need to change the `text()` function to wait for its answer:
 
@@ -176,7 +176,7 @@ def text(update, context):
 
 Here in the `text()` function we just need to understand what's the question the user is answering by using the `STATE` variable we defined before, and call a specific function to handle each answer.
 
-This functions could be written like this:
+These functions could be written like this:
 
 ```python
 def received_birth_year(update, context):
@@ -232,11 +232,11 @@ def received_birth_day(update, context):
         update.message.reply_text("it's funny but it doesn't seem to be correct...")        
 ```
 
-As you can see, when we receive the user birth year, we just check if it is a valid value and in this case we save it to the `context.user_data[]` dictionary and then we go ahead setting the next value for the `STATE` variable and asking the next question.
+As you can see, when we receive the user birth year, we just check if it is a valid value and in this case, we save it to the `context.user_data[]` dictionary, and then we go ahead setting the next value for the `STATE` variable and asking the next question.
 
-When last question is asked and we received the birth day, we just create a date variable and store it in the `context.user_data[]` dictionary as well.
+When the last question is asked and we received the day of birth, we just create a date variable and store it in the `context.user_data[]` dictionary as well.
 
-If the user enters an invalid value, we just tell they that it's not correct and doesn't change the value of the `STATE` variable, so the user is stuck with that question until it doesn't answer correctly.
+If the user enters an invalid value, we just tell them that it's not correct and doesn't change the value of the `STATE` variable, so the user is stuck with that question until it doesn't answer correctly.
 
 Ok, now we just need to handle the `/biorhythm` command and we've finished.
 
@@ -279,7 +279,7 @@ def calculate_biorhythm(birthdate):
     return biorhythm
 ```
 
-As you can see I have written two different functions, one to handle the command and the other one to calculate the biorythm so to separate the responsibility of these functions.
+As you can see I have written two different functions, one to handle the command and the other one to calculate the biorhythm to separate the responsibility of these functions.
 
 So, here there's the complete code of our bot:
 
@@ -452,7 +452,7 @@ Oh my gosh... I hope you won't find too many mistakes in this article, but in th
 
 I will keep the bot alive, so you can try it if you want (the username is @mastro35_mastrobot) but if it doesn't work ... consider that it's running on my raspberry pi and that it could be offline sometimes...
 
-Ok guys, it's enogh for today! If you liked this article feel free to click on the **buy me a coffee** button or subscribe to become a member and [support me on a monthly basis](https://www.buymeacoffee.com/dXjDHmt).
+Ok guys, it's enough for today! If you liked this article feel free to click on the **buy me a coffee** button or subscribe to become a member and [support me on a monthly basis](https://www.buymeacoffee.com/dXjDHmt).
 
 Happy coding and... stay safe!
 D.
