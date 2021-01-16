@@ -26,9 +26,9 @@ Now that you have installed the package, let's start with creating our first bot
 
 Once you start chatting with the *BotFather* bot, you just need to issue the `/newbot` command and answer the questions of *BotFather* will ask you, that are the name of your bot (it's the display name) and the username of your bot.
 
-![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png)){: .align-center}
+![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png){: .align-center}
 
-![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png)){: .align-center}
+![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png){: .align-center}
 
 That's it, your bot is ready! There are a lot of other stuff that you can ask to BotFather (like changing the profile pic of your bot, for example) but for this basic tutorial we won't need anything else.
 
@@ -117,7 +117,7 @@ $ python mastrobot_example.py
 
 and now, let's start chatting with our new bot:
 
-![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png)){: .align-center}
+![botfather1](https://mastro35.github.io/thepythoncorner/images/botfather1.png){: .align-center}
 
 It works!
 
@@ -446,7 +446,7 @@ if __name__ == '__main__':
 
 It's time to test it, right?
 
-![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png)){: .align-center}
+![botfather2](https://mastro35.github.io/thepythoncorner/images/botfather2.png){: .align-center}
 
 Oh my gosh... I hope you won't find too many mistakes in this article, but in that case bear with me, my intellectual cycle today is only at 28%... that's not so good uh?
 
