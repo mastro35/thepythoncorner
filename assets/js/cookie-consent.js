@@ -10,7 +10,7 @@ window.cookieconsent.initialise({
   },
   "type": "opt-in",
   "content": {
-    "message": "This website uses cookies to ensure you get the best experience here.",
     "href": "https://thepythoncorner.com/privacy/"
   }
 });
+
