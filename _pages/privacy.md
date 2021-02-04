@@ -2,7 +2,7 @@
 permalink: /privacy/
 title: "Terms and Privacy Policy"
 last_modified_at: 2021-02-03T12:35:35+01:00
-toc: true
+toc: false
 ---
 
 <h1>Privacy Policy for The Python Corner</h1>
@@ -11,7 +11,7 @@ toc: true
 
 <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
-<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in The Python Corner. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Free Privacy Policy Generator</a>.</p>
+<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in The Python Corner. This policy is not applicable to any information collected offline or via channels other than this website.
 
 <h2>Consent</h2>
 
