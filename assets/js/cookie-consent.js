@@ -17,6 +17,7 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
+      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
     }
@@ -29,6 +30,7 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
+      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
     }
@@ -43,6 +45,7 @@ window.cookieconsent.initialise({
     }
     if (type == 'opt-out') {
       // enable cookies
+      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
     }
