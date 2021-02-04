@@ -1,9 +1,3 @@
-function loadGADOnConsent() {
-  (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;
-  (adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:'ca-pub-1030730506660314',enable_page_level_ads:true});
-}
-
-
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
