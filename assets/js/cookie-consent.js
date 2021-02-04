@@ -19,6 +19,7 @@ window.cookieconsent.initialise({
       // enable cookies
       loadGAonConsent();
       loadGADOnConsent();
+      loadDisqusOnConsent();  
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -31,6 +32,7 @@ window.cookieconsent.initialise({
       // enable cookies
       loadGAonConsent();
       loadGADOnConsent();
+      loadDisqusOnConsent();
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -45,6 +47,7 @@ window.cookieconsent.initialise({
       // enable cookies
       loadGAonConsent();
       loadGADOnConsent();
+      loadDisqusOnConsent();
     }
   }  
 });
