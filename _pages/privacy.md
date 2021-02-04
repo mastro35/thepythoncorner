@@ -9,9 +9,9 @@ toc: true
 
 ### Privacy Policy
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+The privacy of our visitors is **extremely important**. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+First and foremost, **we will never share your email address or any other personal information to anyone without your direct consent**.
 
 ### Log Files
 
@@ -28,10 +28,10 @@ All of this information is not linked to anything that is personally identifiabl
 
 ### Cookies and Web Beacons
 
-When you visit this site “convenience” cookies are stored on your computer when you submit a comment to help you log in faster to Disqus the next time you leave a comment.
+When you visit this site “convenience” cookies are stored on your computer when you submit a comment to help you log in faster to Disqus the next time you leave a comment or to remember your decision about accepting cookies from this site.
 
 If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers’ websites.
 
-### Google AnalyticsPermalink
+### Google Analytics
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. For more information you can read the Google Analytics Privacy Policy.
+Google Analytics is a web analytics tool we use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. For more information you can read the Google Analytics Privacy Policy.
