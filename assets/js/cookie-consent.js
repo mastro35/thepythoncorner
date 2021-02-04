@@ -17,9 +17,11 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
-      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
+      if (typeof(loadDisqusOnConsent) === "function") {
+        loadDisqusOnConsent();
+      }
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -30,9 +32,11 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
-      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
+      if (typeof(loadDisqusOnConsent) === "function") {
+        loadDisqusOnConsent();
+      }
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -45,9 +49,11 @@ window.cookieconsent.initialise({
     }
     if (type == 'opt-out') {
       // enable cookies
-      loadDisqusOnConsent();
       loadGAonConsent();
       loadGADOnConsent();
+       if (typeof(loadDisqusOnConsent) === "function") {
+        loadDisqusOnConsent();
+      }
     }
   }  
 });
