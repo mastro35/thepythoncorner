@@ -18,7 +18,7 @@ window.cookieconsent.initialise({
     if (type == 'opt-in' && didConsent) {
       // enable cookies
       loadGAonConsent();
-      loadGADOnConsent();
+      //loadGADOnConsent();
       if (typeof(loadDisqusOnConsent) === "function") {
         loadDisqusOnConsent();
       }
@@ -33,7 +33,7 @@ window.cookieconsent.initialise({
     if (type == 'opt-in' && didConsent) {
       // enable cookies
       loadGAonConsent();
-      loadGADOnConsent();
+      //loadGADOnConsent();
       if (typeof(loadDisqusOnConsent) === "function") {
         loadDisqusOnConsent();
       }
@@ -50,7 +50,7 @@ window.cookieconsent.initialise({
     if (type == 'opt-out') {
       // enable cookies
       loadGAonConsent();
-      loadGADOnConsent();
+      //loadGADOnConsent();
        if (typeof(loadDisqusOnConsent) === "function") {
         loadDisqusOnConsent();
       }
