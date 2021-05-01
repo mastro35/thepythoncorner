@@ -115,5 +115,5 @@ analytics:
     tracking_id: "UA-120027408-1"
     anonymize_ip: false # default
 
-after_footer_scripts     :
-  - /assets/js/cookie-consent.js
+# after_footer_scripts     :
+#   - /assets/js/cookie-consent.js
