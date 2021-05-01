@@ -70,6 +70,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/thepythoncorner"
+    - label: "Python Developer Jobs"
+      icon: "fas fa-fw fa-link"
+      url: "https://jooble.org/jobs-python-developer"
 
 footer:
   links:
@@ -115,5 +118,5 @@ analytics:
     tracking_id: "UA-120027408-1"
     anonymize_ip: false # default
 
-# after_footer_scripts     :
-#   - /assets/js/cookie-consent.js
+after_footer_scripts     :
+  - /assets/js/cookie-consent.js
