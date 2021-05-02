@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "The Python Corner"
-  avatar : "/assets/images/logob.png"
+  avatar : "/assets/images/logoc.png"
   bio    : "only for Pythonistas!"
   links  :
     - label: "Website"
