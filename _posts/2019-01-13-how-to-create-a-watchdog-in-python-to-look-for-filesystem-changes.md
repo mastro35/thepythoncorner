@@ -51,8 +51,8 @@ The event handler is the object that will be notified when something happen on t
 
 ```python
 if __name__ == "__main__":
-    patterns = "*"
-    ignore_patterns = ""
+    patterns = ["*"]
+    ignore_patterns = None
     ignore_directories = False
     case_sensitive = True
     my_event_handler = PatternMatchingEventHandler(patterns, ignore_patterns, ignore_directories, case_sensitive)
