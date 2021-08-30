@@ -4,12 +4,12 @@ date: 2021-08-30T19:06:35+01:00
 author: Davide Mastromatteo
 excerpt: "Is it possible to create a self-replicating virus in Python? In this article, we'll find out..."
 header:
-teaser: [https://imgs.xkcd.com/comics/retro_virus.png](https://imgs.xkcd.com/comics/retro_virus.png)
+    teaser: [https://imgs.xkcd.com/comics/retro_virus.png](https://imgs.xkcd.com/comics/retro_virus.png)
 categories:
-- Dev
+    - Dev
 tags:
-- virus
-- python
+    - virus
+    - python
 ---
 ![teaser](https://imgs.xkcd.com/comics/retro_virus.png)
 
