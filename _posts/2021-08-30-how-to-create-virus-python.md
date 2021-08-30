@@ -1,5 +1,4 @@
 ---
-
 title: "How to create a computer virus in Python"
 date: 2021-08-30T19:06:35+01:00
 author: Davide Mastromatteo
@@ -12,7 +11,6 @@ tags:
 - virus
 - python
 ---
-
 ![teaser](https://imgs.xkcd.com/comics/retro_virus.png)
 
 I was relaxing on a beach during my summer leave when I received a mail from a reader that asked me if it is technically possible to write a virus using Python.
