@@ -1,7 +1,7 @@
 baseURL = "https://thepythoncorner.com/"
 
-relativeURLs = true
-canonifyURLs = true
+# relativeURLs = true
+# canonifyURLs = true
 
 languageCode = "en-us"
 title = "The Python Corner"
