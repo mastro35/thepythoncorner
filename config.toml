@@ -1,4 +1,4 @@
-baseURL = "https://mastro35.github.io/tpc/"
+baseURL = "https://thepythoncorner.com/"
 
 relativeURLs = true
 canonifyURLs = true
@@ -97,7 +97,7 @@ url = "https://shop.spreadshirt.com/the-python-corner"
     enabled = true # default
     engine = "utterances" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
-      repo = "mastro35/tpc"
+      repo = "mastro35/thepythoncorner"
       label = "The Python Corner" # you can use however you want to label your name in your repo's issues
       theme = "github-dark"
     [params.comments.cactuscomments]
@@ -119,11 +119,3 @@ url = "https://shop.spreadshirt.com/the-python-corner"
   [[params.social]]
     name = "email"
     link = "info@thepythoncorner.com"  # no need for "mailto:" in the head
-
-[author]
-  [author.davide_mastromatteo]
-    name = "Davide Mastromatteo"
-    location = "Milan - Italy"
-  [author.andrew_zapisotskyi]
-    name = "Andrew Zapisotskyi"
-    location = "Ukraine"
