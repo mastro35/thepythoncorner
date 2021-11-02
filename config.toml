@@ -1,4 +1,4 @@
-baseURL = "https://thepythoncorner.com/"
+baseURL = "http://thepythoncorner.com/"
 
 # relativeURLs = true
 # canonifyURLs = true
