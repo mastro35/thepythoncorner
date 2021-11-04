@@ -7,8 +7,8 @@ languageCode = "en-us"
 title = "The Python Corner"
 theme = "cactus"
 copyright = "Davide Mastromatteo" # cactus will use title if copyright is not set
-disqusShortname = "the-python-corner" # Used when comments is enabled. Cactus will use site title if not set
-googleAnalytics = "UA-120027408-1"
+# disqusShortname = "the-python-corner" # Used when comments is enabled. Cactus will use site title if not set
+# googleAnalytics = "UA-120027408-1"
 
 #
 # summaryLength = 2
