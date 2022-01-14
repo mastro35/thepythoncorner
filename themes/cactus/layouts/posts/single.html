@@ -95,7 +95,7 @@
     <div class="article-gallery">
       {{ range $index, $value := . }}
       <a class="gallery-item" href="{{ .RelPermalink }}" rel="gallery_{{ $index }}">
-          <img src="{{ .RelPermalink }}" itemprop="image" />
+          <link rel="preload" as="image" href="{{ .RelPermalink }}" itemprop="image" />
       </a>
       {{ end }}
     </div>
