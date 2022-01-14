@@ -6,7 +6,7 @@
 
     <!--TITLE-->
     <a href="{{ .Site.BaseURL }}">
-    <image id="banner" src="/images/logo.png" width="100%">
+    <link rel="preload" as="image" id="banner" href="/images/logo.png" width="100%">
       <!--
   {{ if (isset .Site.Params "gravatar") }}
     <div id="logo" style="background-image: url(https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar }}?s=100&d=identicon)"></div>
