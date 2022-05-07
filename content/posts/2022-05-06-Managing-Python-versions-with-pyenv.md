@@ -1,5 +1,5 @@
 ---
-title: "Managing Python versions with pyenv"
+title: Managing Python versions with pyenv
 date: 2022-05-07T17:37:47+01:00
 author: "davide_mastromatteo"
 excerpt: "Are you sure that you are installing Python right?"
