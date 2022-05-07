@@ -48,7 +48,7 @@ which was an incredible distro based on Debian discontinued in 2013...
 However, let's start the installation!
 Start your Linux terminal and execute the pyenv-installer script by executing `curl https://pyenv.run | bash`.
 
-```python
+```bash
 dave@hell:~$ curl https://pyenv.run | bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -114,7 +114,7 @@ Ok, that was easy, wasn't it? Now all you have to do is to add the pyenv root di
 variable.
 
 Now edit your ~/.bashrc and add the following lines:
-```
+```bash
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
@@ -135,7 +135,7 @@ Before that, however, some libraries has to be installed and that are needed to 
 So, since I'm on a Lithium Linux (that is a flavor of a Debian distro), I have to use the following command to install all the
 reccomended dependencies: 
 
-```
+```bash
 dave@hell:~$ sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
@@ -165,7 +165,7 @@ that the system is hanging. On my Lithium vm, installed on a 2018 MacBook Pro, t
 
 Ok, now that we have installed Python 3.10.4, let's ask to pyenv which version we have available now:
 
-```
+```bash
 dave@hell:~$ pyenv versions
 * system (set by /home/dave/.pyenv/version)
   3.10.4
@@ -346,7 +346,7 @@ Well, it turns out that as usual, it is easier than you may expect.
 
 Pyenv works by adding a special directory called `shims` in front of your PATH environment variable, like this:
 
-```
+```bash
 $(pyenv root)/shims:/usr/local/bin:/usr/bin:/bin
 ```
 
