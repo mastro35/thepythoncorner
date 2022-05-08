@@ -1,5 +1,5 @@
 #+markup: org
-#+title: "Managing Python Versions with pyenv"
+#+title: Managing Python Versions with pyenv
 #+date: 2022-05-04T13:00:00+01:00
 #+author: "davide_mastromatteo"
 #+excerpt: "Start managing your Python version in a modern and convenient way!"
@@ -7,6 +7,14 @@
 #+categories[]: Dev
 #+tags[]: Python versions, python
 
-[[https://imgs.xkcd.com/comics/second.png][teaser]] 
+[[https://imgs.xkcd.com/comics/second.png]]
 
 This post will soon be available...
+
+* prova titolo
+
+Primo post di prova bla bla *grassetto* /corsivo/ _sottolineato_ =bhooo= ~python~ +ahecco+ 
+
+** TODO prova
+
+** titolo 2
