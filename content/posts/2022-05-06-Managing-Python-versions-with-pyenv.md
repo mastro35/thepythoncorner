@@ -12,7 +12,7 @@ tags:
     - version
     - python
 ---
-![teaser](https://imgs.xkcd.com/comics/python_environment)
+![teaser](https://imgs.xkcd.com/comics/python_environment.png)
 
 Today's article is about one of the most impressive pieces of software Python-related I have ever seen: [`pyenv`](https://github.com/pyenv/pyenv).
 `pyenv` is the most clever way of installing Python on your system and allows you to install and manage several different versions of 
