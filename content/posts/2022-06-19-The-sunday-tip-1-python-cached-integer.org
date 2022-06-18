@@ -1,0 +1,88 @@
+#+markup: org
+#+title: The sunday tip #1: Python cached integers
+#+date: 2022-06-19T00:07:35+01:00
+#+author: "davide_mastromatteo"
+#+excerpt: "Did you know that Python compiler optimize your program caching small integers?" 
+#+header[]: teaser: https://imgs.xkcd.com/comics/compiling.png
+#+categories[]: Dev
+#+tags[]: python, Sunday Tips, Internals, Interpreter, Compiler
+
+[[https://imgs.xkcd.com/comics/compiling.png]]
+
+Hey guys, today's post is just a small tip that inaugurate a new series: *the sunday tips*.
+In this series I will give you a Python tip each sunday so to whet your pythonic appetite before starting a new working week.
+Let me know if you like the idea in the comment below or maybe [[http://buymeacoffee.com/dXjDHmt][buying me a coffee]] so to tip my sunday tip! :)
+
+This week tip is about... 
+
+* Python integer cache.
+
+Let's start with an example, open your REPL and try this:
+
+#+BEGIN-SRC python
+>>> a = 666
+>>> b = 666
+>>> a is b
+>>> False
+#+END-SRC
+
+As you can see we have assigned the value ~666~ to the variable ~a~ and then the value ~666~ to the variable ~b~.
+Unsurprisingly, the two variables are pointing to two different objects.
+
+So, what's strange with that?
+
+Well... nothing... unless the interpreter doesn't behave differently depending on the number we assign... 
+Let's try with this second example:
+
+#+BEGIN-SRC python
+>>> a = 3
+>>> b = 3
+>>> a is b
+>>> True
+#+END-SRC
+
+What? Why the two variables ~a~ and ~b~ are now pointing to the same obejct?
+
+No, you Python interpreter is not /religious/, it doesn't consider the number ~3~ better or worse than the 
+number ~666~, it just cache the values between ~-5~ and ~256~ for performance reasons.
+
+That's cool uh?
+
+Yes, but this is what I get with the REPL, would it be the same with the compiler?
+Well, apparently the compiler behave in a different way and analyzing your script, it may decide to 
+cache also different numbers:
+
+#+BEGIN-SRC python
+a = 3
+b = 3
+c = 666
+d = 666
+e = 5.5
+f = 5.5
+g = 11 / 2
+
+print (a is b)
+print (c is d)
+print (e is f)
+print (f is g)
+#+END-SRC
+
+And running this example you will get:
+
+#+BEGIN-SRC bash
+True
+True
+True
+False
+#+END-SRC
+
+* So, what have we learned?
+
+1. your compiler *does* optimize more than you think
+2. what you get in the REPL is not always identical to what you get from the compiler
+3. even float numbers may be cached
+4. not /every/ number is cached ;)
+
+Happy sunday!
+D.
+
