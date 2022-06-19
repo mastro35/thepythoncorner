@@ -7,7 +7,7 @@ on:
   pull_request:
 
   schedule:
-      - cron:  '10 * * * *' # Runs every hour
+      - cron:  '30 * * * *' # Runs every hour
 
 
 jobs:
