@@ -5,7 +5,7 @@
 #+excerpt: "Did you know that Python compiler optimize your program caching small integers?" 
 #+header[]: teaser: https://imgs.xkcd.com/comics/compiling.png
 #+categories[]: Dev
-#+tags[]: python, "Sunday Tips", Internals, Interpreter, Compiler
+#+tags[]: python, Sunday_Tips, Internals, Interpreter, Compiler
 
 [[https://imgs.xkcd.com/comics/compiling.png]]
 
