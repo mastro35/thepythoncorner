@@ -19,12 +19,12 @@ This week tip is about...
 
 Let's start with an example, open your REPL and try this:
 
-#+BEGIN-SRC python
+#+BEGIN_SRC python
 >>> a = 666
 >>> b = 666
 >>> a is b
 >>> False
-#+END-SRC
+#+END_SRC
 
 As you can see we have assigned the value ~666~ to the variable ~a~ and then the value ~666~ to the variable ~b~.
 Unsurprisingly, the two variables are pointing to two different objects.
@@ -34,12 +34,12 @@ So, what's strange with that?
 Well... nothing... unless the interpreter doesn't behave differently depending on the number we assign... 
 Let's try with this second example:
 
-#+BEGIN-SRC python
+#+BEGIN_SRC python
 >>> a = 3
 >>> b = 3
 >>> a is b
 >>> True
-#+END-SRC
+#+END_SRC
 
 What? Why the two variables ~a~ and ~b~ are now pointing to the same obejct?
 
@@ -52,7 +52,7 @@ Yes, but this is what I get with the REPL, would it be the same with the compile
 Well, apparently the compiler behave in a different way and analyzing your script, it may decide to 
 cache also different numbers:
 
-#+BEGIN-SRC python
+#+BEGIN_SRC python
 a = 3
 b = 3
 c = 666
@@ -65,16 +65,16 @@ print (a is b)
 print (c is d)
 print (e is f)
 print (f is g)
-#+END-SRC
+#+END_SRC
 
 And running this example you will get:
 
-#+BEGIN-SRC bash
+#+BEGIN_SRC bash
 True
 True
 True
 False
-#+END-SRC
+#+END_SRC
 
 * So, what have we learned?
 
@@ -85,4 +85,3 @@ False
 
 Happy sunday!
 D.
-
