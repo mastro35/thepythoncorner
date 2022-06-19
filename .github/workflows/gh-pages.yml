@@ -6,6 +6,10 @@ on:
       - master  # Set a branch to deploy
   pull_request:
 
+  schedule:
+      - cron:  '10 * * * *' # Runs every hour
+
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
