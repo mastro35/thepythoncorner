@@ -78,10 +78,11 @@ False
 
 * So, what have we learned?
 
-1. your compiler *does* optimize more than you think
-2. what you get in the REPL is not always identical to what you get from the compiler
-3. even float numbers may be cached
-4. not /every/ number is cached ;)
+- your compiler *does* optimize more than you think
+- what you get in the REPL is not always identical to what you get from the compiler
+- even float numbers may be cached
+- not /every/ number is cached ;)
+
 
 Happy sunday!
 D.
