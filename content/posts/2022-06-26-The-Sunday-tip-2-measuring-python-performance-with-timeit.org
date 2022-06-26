@@ -1,5 +1,5 @@
 #+markup: org
-#+title: The Sunday tip #1: Python cached integers
+#+title: The Sunday tip #2: Measuring Python code performance with the timeit module
 #+date: 2022-06-26T00:04:22+01:00
 #+author: davide_mastromatteo
 #+excerpt: "Good code is also code that performs well, here's how you can measure your code's performance in Python"
@@ -7,8 +7,7 @@
 #+categories[]: Dev
 #+tags[]: python Sunday_Tips performance timeit
 
-https://imgs.xkcd.com/comics/hypothesis_generation.png
-
+[[https://imgs.xkcd.com/comics/hypothesis_generation.png]]
 Hi guys, this week's tip is about measuring the performance of your Python code. 
 Maybe you left your cubicle last Friday with some piece of code that wasn't performing well? Well, today you will learn how to measure it! :)
 
