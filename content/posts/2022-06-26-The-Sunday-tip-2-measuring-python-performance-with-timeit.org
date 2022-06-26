@@ -23,7 +23,7 @@ You have been asked to write a small function that takes a list of strings and r
 
 Here is your piece of code:
 
-#+BEGIN_SRC
+#+BEGIN_SRC python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -36,7 +36,7 @@ It was easy, wasn't it?
 
 Now we need to test it... let's write some code to test it.
 
-#+BEGIN_SRC
+#+BEGIN_SRC python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -66,7 +66,7 @@ Let's find it out with the ~timeit()~ function of the ~timeit~ module!
 
 The signature of the function we will use is the following: 
 
-#+BEGIN_SRC
+#+BEGIN_SRC python
 timeit.timeit(stmt='pass', setup='pass', timer=<default timer>, number=1000000, globals=None)
 #+END_SRC
 
@@ -78,7 +78,7 @@ So in our code we can import the ~timeit~ module and use this function, where:
 - ~globals~ is an optional parameter that is useful if you want to specify a namespace where to execute your code
 
 Let's try it: 
-#+BEGIN_SRC
+#+BEGIN_SRC python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -104,7 +104,7 @@ if __name__ == '__main__':
 Please note that in our example it was important to specify the ~globals~ parameter to specify in which namespace the module could have found the function we wrote.
 Running the example on my Intel-based MacBook pro what I got is:
 
-#+BEGIN_SRC
+#+BEGIN_SRC console
 $ python timeit1.py
 24.02475388700077
 #+END_SRC
@@ -119,7 +119,7 @@ In this case, consider that you can reenable the garbage collection just by addi
 However, as you may know, there's a better way to concatenate strings in Python and it's done by using the ~.join()~ method of a string object. 
 So in our case, our code could be written like this: 
 
-#+BEGIN_SRC
+#+BEGIN_SRC python
 def concatenate(list: [str]):
     return ",".join(list)
     
@@ -137,7 +137,7 @@ Yes, in the previous code we had /reinvented the wheel/... and by the way: if yo
 
 Now, let's run this code and see what we get:
 
-#+BEGIN_SRC
+#+BEGIN_SRC console
 $ python timeit2.py
 1.2398378039997624
 #+END_SRC
