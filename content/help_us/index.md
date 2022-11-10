@@ -13,7 +13,7 @@ Every single donation helps, regardless of how much you donate.
 
 If you liked one of our articles or it saved you a lot of time you can thank us with a small donation of the amount that is right for you. 
 
-You can choose to donate with Paypal by clicking on [this link](https://www.paypal.com/paypalme/mastro35) or [buying me a coffee](https://www.buymeacoffee.com/dXjDHmt) just like you'd do with a colleague of yours.  
+You can choose to donate with Paypal by clicking on [this link](https://www.paypal.com/paypalme/mastro35) or [buying me a coffee](https://www.buymeacoffee.com/mastro35) just like you'd do with a colleague of yours.  
 And if you are a "crypto-guy" with a couple of Bitcoins spare in your pocket, here is my wallet : 15zommQc52pu1bD95n9s31uskeAWDGhYzA :)
 
 Feel free to choose the amount that is right for you: **even a single dollar could be important to keep The Python Corner alive**!

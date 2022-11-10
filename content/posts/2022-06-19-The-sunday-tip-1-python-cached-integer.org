@@ -11,7 +11,7 @@
 
 Hey guys, today's post is just a small tip that inaugurate a new series: *the Sunday tips*.
 In this series I will give you a Python tip each Sunday so to whet your pythonic appetite before starting a new working week.
-Let me know if you like the idea in the comment below or maybe [[http://buymeacoffee.com/dXjDHmt][buying me a coffee]] so to tip my Sunday tip! :)
+Let me know if you like the idea in the comment below or maybe [[http://buymeacoffee.com/mastro35][buying me a coffee]] so to tip my Sunday tip! :)
 
 This week tip is about... 
 

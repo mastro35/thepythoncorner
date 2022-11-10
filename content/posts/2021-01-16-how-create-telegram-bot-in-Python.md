@@ -454,7 +454,7 @@ Oh my gosh... I hope you won't find too many mistakes in this article, but in th
 
 I will keep the bot alive, so you can try it if you want (the username is @mastro35_mastrobot) but if it doesn't work ... consider that it's running on my raspberry pi and that it could be offline sometimes...
 
-Ok guys, it's enough for today! If you liked this article feel free to click on the **buy me a coffee** button or subscribe to become a member and [support me on a monthly basis](https://www.buymeacoffee.com/dXjDHmt).
+Ok guys, it's enough for today! If you liked this article feel free to click on the **buy me a coffee** button or subscribe to become a member and [support me on a monthly basis](https://www.buymeacoffee.com/mastro35).
 
 Happy coding and... stay safe!
 D.
