@@ -18,7 +18,7 @@ aliases:
 ---
 ![teaser](https://imgs.xkcd.com/comics/expiration_date_high_score.png)
 
-**DISCLAMER**: There's a newer (and probably better) [article](https://realpython.com/python-pickle-module/) about this topic that I wrote for [Real Python](https://realpython.com) website.
+**DISCLAMER**:  There's a newer (and probably better) [article](https://realpython.com/python-pickle-module/) about this topic that I wrote for [Real Python](https://realpython.com) website.
 
 It's longer and more detailed and it also have a section about the security concern when using the pickle module, so... I want to be honest and I suggest you to read [that article](https://realpython.com/python-pickle-module/) ... but if you like it, don't forget to come back here and [buy me a coffe](https://www.buymeacoffee.com/mastro35)! :) 
 
