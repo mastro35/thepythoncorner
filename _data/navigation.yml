@@ -1,0 +1,15 @@
+main:
+#  - title: "Posts"
+#    url: /posts/
+  - title: "Gift Shop"
+    url: https://shop.spreadshirt.com/the-python-corner/
+  - title: "Newsletter"
+    url: https://buttondown.email/thepythoncorner
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Tags"
+#    url: /tags/
+  - title: "About"
+    url: /about/
+  - title: "Privacy Policy"
+    url: /privacy/

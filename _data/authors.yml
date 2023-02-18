@@ -1,0 +1,27 @@
+davide_mastromatteo:
+  name   : "Davide Mastromatteo"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Developer and editor of thepythoncorner.com and emacsworld.com. Apple user, blood donor, NFL, Rugby and Chess lover. Constantly hungry and foolish."
+  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://www.thepythoncorner.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mastro35"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:info@thepythoncorner.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mastro35"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mastro35"
+
+andrew_zapisotskyi:
+  name   : "Andrew Zapisotskyi"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mailtrap.io"
