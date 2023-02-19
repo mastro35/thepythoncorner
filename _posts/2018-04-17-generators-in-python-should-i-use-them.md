@@ -11,7 +11,7 @@ tags:
   - Featured
   - Generators
   - Python
-aliases:
+redirect_from:
   - /2018/04/generators-in-python-should-i-use-them
   - /2018/04/generators-in-python-should-i-use-them/
   - /dev/generators-in-python-should-i-use-them/

@@ -12,7 +12,7 @@ tags:
   - virtualenv
   - environments
   - python
-aliases:
+redirect_from:
   - /2016/11/using-virtual-environments-with-python
   - /2016/11/using-virtual-environments-with-python/
   - /dev/using-virtual-environments-python/

@@ -13,7 +13,7 @@ tags:
   - Fuse
   - Linux
   - Python
-aliases:
+redirect_from:
   - /2017/02/writing-a-fuse-filesystem-in-python
   - /2017/02/writing-a-fuse-filesystem-in-python/
   - /dev/writing-a-fuse-filesystem-in-python/

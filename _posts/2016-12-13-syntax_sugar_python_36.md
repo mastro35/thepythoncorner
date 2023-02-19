@@ -12,7 +12,7 @@ tags:
   - synctactic sugar
   - python 3.6
   - python
-aliases:
+redirect_from:
   - /2016/12/syntax-sugar-in-python-3-6
   - /2016/12/syntax-sugar-in-python-3-6/
   - /dev/syntax_sugar_python_36/

@@ -13,7 +13,7 @@ tags:
   - formattin strings
   - f-string
   - python
-aliases:
+redirect_from:
   - /dev/formatting-strings-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/string_theory.png)

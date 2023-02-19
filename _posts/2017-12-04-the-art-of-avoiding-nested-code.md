@@ -14,7 +14,7 @@ tags:
   - List Comprehension
   - Maps
   - Python
-aliases:
+redirect_from:
   - /2017/12/the-art-of-avoiding-nested-code
   - /2017/12/the-art-of-avoiding-nested-code/
   - /dev/the-art-of-avoiding-nested-code/

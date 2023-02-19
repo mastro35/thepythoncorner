@@ -11,7 +11,7 @@ tags:
   - books
   - python
   - manning
-aliases:
+redirect_from:
   - /dev/friends-manning-publication/
 ---
 ![teaser](https://imgs.xkcd.com/comics/bookstore.png)

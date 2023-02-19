@@ -12,7 +12,7 @@ tags:
   - generators
   - iterable
   - python
-aliases:
+redirect_from:
   - /2016/11/iterators-and-generators-in-python
   - /2016/11/iterators-and-generators-in-python/  
   - /dev/iterators-generators-python/

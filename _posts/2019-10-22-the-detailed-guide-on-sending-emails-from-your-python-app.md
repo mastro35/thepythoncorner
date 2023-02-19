@@ -12,7 +12,7 @@ tags:
   - mail
   - Programming
   - Python
-aliases:
+redirect_from:
   - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app
   - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app/
   - /dev/the-detailed-guide-on-sending-emails-from-your-python-app/

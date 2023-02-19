@@ -11,7 +11,7 @@ tags:
   - hash tables
   - dictionaries
   - python
-aliases:
+redirect_from:
   - /dev/hash-tables-understanding-dictionaries/
 ---
 ![teaser](https://imgs.xkcd.com/comics/password_strength.png)

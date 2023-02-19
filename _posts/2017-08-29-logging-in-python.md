@@ -11,7 +11,7 @@ tags:
   - Featured
   - Logging
   - Python
-aliases:
+redirect_from:
   - /2017/08/logging-in-python
   - /2017/08/logging-in-python/
   - /dev/logging-in-python/

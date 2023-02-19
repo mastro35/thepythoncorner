@@ -13,7 +13,7 @@ tags:
   - Featured
   - Programming
   - Python
-aliases:
+redirect_from:
   - /2017/01/working-with-exception-in-python
   - /2017/01/working-with-exception-in-python/
   - /dev/working-with-exception-in-python/

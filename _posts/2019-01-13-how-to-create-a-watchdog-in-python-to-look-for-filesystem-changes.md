@@ -12,7 +12,7 @@ tags:
   - Filesystem
   - Python
   - watchdog
-aliases:
+redirect_from:
   - /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes
   - /2019/01/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes/
   - /dev/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes/

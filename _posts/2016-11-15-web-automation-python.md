@@ -14,7 +14,7 @@ tags:
   - webtest
   - automation
   - python
-aliases:
+redirect_from:
   - /2016/11/web-test-automation-in-python
   - /2016/11/web-test-automation-in-python/  
   - /dev/web-automation-python/

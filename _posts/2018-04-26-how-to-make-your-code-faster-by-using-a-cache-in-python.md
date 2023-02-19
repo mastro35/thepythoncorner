@@ -12,7 +12,7 @@ tags:
   - Featured
   - Performance
   - Python
-aliases:
+redirect_from:
   - /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python
   - /2018/04/how-to-make-your-code-faster-by-using-a-cache-in-python/
   - /dev/how-to-make-your-code-faster-by-using-a-cache-in-python/ 

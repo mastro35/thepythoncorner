@@ -11,7 +11,7 @@ tags:
   - json
   - serialization
   - python
-aliases:
+redirect_from:
   - /2020/02/serialization-in-python-with-json
   - /2020/02/serialization-in-python-with-json/
   - /dev/serialization-python-json/

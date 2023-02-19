@@ -13,7 +13,7 @@ tags:
   - encoding
   - IBM
   - Mainframe
-aliases:
+redirect_from:
   - /dev/working-with-ebcdic-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/the_history_of_unicode.png)  

@@ -11,7 +11,7 @@ tags:
   - decorators
   - functions
   - python
-aliases:
+redirect_from:
   - /dev/working-with-decorators-python-basics/
 ---
 ![teaser](https://imgs.xkcd.com/comics/bad_code.png)

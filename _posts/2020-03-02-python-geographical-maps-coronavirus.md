@@ -15,7 +15,7 @@ tags:
   - kaggle
   - coronavirus
   - python
-aliases:
+redirect_from:
   - /2020/03/473/
   - /2020/03/473
   - /dev/python-geographical-maps-coronavirus/

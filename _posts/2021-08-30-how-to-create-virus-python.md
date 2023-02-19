@@ -10,7 +10,7 @@ categories:
 tags:
     - virus
     - python
-aliases:
+redirect_from:
   - /dev/how-to-create-virus-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/retro_virus.png)

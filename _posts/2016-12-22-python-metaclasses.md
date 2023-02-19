@@ -14,7 +14,7 @@ tags:
   - Metaclasses
   - Programming
   - Python
-aliases:
+redirect_from:
   - /2016/12/python-metaclasses
   - /2016/12/python-metaclasses/
   - /dev/python-metaclasses/

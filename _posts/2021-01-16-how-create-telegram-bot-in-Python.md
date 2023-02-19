@@ -11,7 +11,7 @@ tags:
   - telegram bot
   - bot
   - python
-aliases:
+redirect_from:
   - /dev/how-create-telegram-bot-in-Python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/android_girlfriend.png)

@@ -12,7 +12,7 @@ tags:
   - First Class Objects
   - Lambda
   - Python
-aliases:
+redirect_from:
   - /2017/12/lambdas-and-functions-in-python
   - /2017/12/lambdas-and-functions-in-python/
   - /2018/05/lambdas-and-functions-in-python.html

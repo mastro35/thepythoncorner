@@ -6,7 +6,7 @@ header:
   teaser: https://imgs.xkcd.com/comics/command_line_fu.png
 categories:
   - Dev
-aliases:
+redirect_from:
   - /2020/02/creating-command-line-interfaces-in-python-with-argparse
   - /2020/02/creating-command-line-interfaces-in-python-with-argparse/
   - /dev/creating-command-line-interfaces-in-python-with-argparse/

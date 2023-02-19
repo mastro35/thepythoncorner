@@ -11,7 +11,7 @@ tags:
   - serialization
   - pickle
   - python
-aliases:
+redirect_from:
   - /2016/12/object-serialization-in-python
   - /2016/12/object-serialization-in-python/
   - /dev/object-serialization-python-pickle/
