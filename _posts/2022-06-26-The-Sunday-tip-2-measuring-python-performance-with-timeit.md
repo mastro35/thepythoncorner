@@ -19,7 +19,7 @@ tags:
 Hi guys, this week's tip is about measuring the performance of your Python code. 
 Maybe you left your cubicle last Friday with some piece of code that wasn't performing well? Well, today you will learn how to measure it! :)
 
-* The timeit module 
+# The timeit module 
 
 We all know that Python comes with /batteries included/ because in its standard library there are a lot of tools that you can easily use out of the box. 
 One of theese tools is the `timeit` module.
@@ -31,7 +31,7 @@ You have been asked to write a small function that takes a list of strings and r
 
 Here is your piece of code:
 
-```
+```python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -44,7 +44,7 @@ It was easy, wasn't it?
 
 Now we need to test it... let's write some code to test it.
 
-```
+```python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -74,7 +74,7 @@ Let's find it out with the `timeit()` function of the `timeit` module!
 
 The signature of the function we will use is the following: 
 
-```
+```python
 timeit.timeit(stmt='pass', setup='pass', timer=<default timer>, number=1000000, globals=None)
 ```
 
@@ -87,7 +87,7 @@ So in our code we can import the `timeit module and use this function, where:
 
 Let's try it: 
 
-```
+```python
 def concatenate(list: [str]):
     result = ""
     for string in list:
@@ -113,22 +113,21 @@ if __name__ == '__main__':
 Please note that in our example it was important to specify the `globals` parameter to specify in which namespace the module could have found the function we wrote.
 Running the example on my Intel-based MacBook pro what I got is:
 
-```
+```console
 $ python timeit1.py
 24.02475388700077
 ```
 
 Ok, let's face it, this code sucks guys...
 
-```
-Please note that during the execution, the ~timeit()~ function disables the garbage collector to have the single measurements more comparable. This is usually ok but sometimes it can be useful to measure it because garbage collections can be an important aspect to consider talking about performance. 
-In this case, consider that you can reenable the garbage collection just by adding ~'gc.enable()'~ to the ~setup~ parameter like this:
-```
+
+> Please note that during the execution, the ~timeit()~ function disables the garbage collector to have the single measurements more comparable. This is usually ok but sometimes it can be useful to measure it because garbage collections can be an important aspect to consider talking about performance. In this case, consider that you can reenable the garbage collection just by adding ~'gc.enable()'~ to the ~setup~ parameter like this:
+
 
 However, as you may know, there's a better way to concatenate strings in Python and it's done by using the `.join()` method of a string object. 
 So in our case, our code could be written like this: 
 
-```
+```python
 def concatenate(list: [str]):
     return ",".join(list)
     
@@ -146,14 +145,14 @@ Yes, in the previous code we had /reinvented the wheel/... and by the way: if yo
 
 Now, let's run this code and see what we get:
 
-```
+```console
 $ python timeit2.py
 1.2398378039997624
 ```
 
 Ok, we have optimized our code by 95%, let's call it a day! ;)
 
-* So, what have we learned?
+# So, what have we learned?
 
 - to measure a Python piece of code the best method is to use the `timeit` module of the standard library
 - optimizing your code is super important

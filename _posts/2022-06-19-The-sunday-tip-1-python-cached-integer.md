@@ -17,16 +17,16 @@ tags:
 ![compiling](https://imgs.xkcd.com/comics/compiling.png)
 
 Hey guys, today's post is just a small tip that inaugurate a new series: *the Sunday tips*.
-In this series I will give you a Python tip each Sunday so to whet your pythonic appetite before starting a new working week.
+In this series I will give you a brief Python tip so to whet your pythonic appetite before starting a new working week.
 Let me know if you like the idea in the comment below or maybe [buy me a coffee][http://buymeacoffee.com/mastro35]([buying me a coffee]] so to tip my Sunday tip! :)
 
 This week tip is about... 
 
-* Python integer cache.
+# Python integer cache.
 
 Let's start with an example, open your REPL and try this:
 
-```
+```python
 >>> a = 666
 >>> b = 666
 >>> a is b
@@ -41,7 +41,7 @@ So, what's strange with that?
 Well... nothing... unless the interpreter doesn't behave differently depending on the number we assign... 
 Let's try with this second example:
 
-```
+```python
 >>> a = 3
 >>> b = 3
 >>> a is b
@@ -59,7 +59,7 @@ Yes, but this is what I get with the REPL, would it be the same with the compile
 Well, apparently the compiler behave in a different way and analyzing your script, it may decide to 
 cache also different numbers:
 
-```
+```python
 a = 3
 b = 3
 c = 666
@@ -76,14 +76,14 @@ print (f is g)
 
 And running this example you will get:
 
-```
+```console
 True
 True
 True
 False
 ```
 
-* So, what have we learned?
+# So, what have we learned?
 
 - your compiler *does* optimize more than you think
 - what you get in the REPL is not always identical to what you get from the compiler
