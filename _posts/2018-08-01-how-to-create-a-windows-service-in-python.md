@@ -15,6 +15,7 @@ tags:
   - Windows
 aliases:
   - /2018/08/how-to-create-a-windows-service-in-python
+  - /2018/08/how-to-create-windows-service-in-hi
   - /2018/08/how-to-create-a-windows-service-in-python/
   - /dev/how-to-create-a-windows-service-in-python/ 
 ---
