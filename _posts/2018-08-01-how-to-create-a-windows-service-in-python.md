@@ -13,7 +13,7 @@ tags:
   - Python
   - Services
   - Windows
-aliases:
+redirect_from:
   - /2018/08/how-to-create-a-windows-service-in-python
   - /2018/08/how-to-create-windows-service-in-hi
   - /2018/08/how-to-create-a-windows-service-in-python/
