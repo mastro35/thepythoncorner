@@ -21,7 +21,7 @@ Maybe you left your cubicle last Friday with some piece of code that wasn't perf
 
 # The timeit module 
 
-We all know that Python comes with /batteries included/ because in its standard library there are a lot of tools that you can easily use out of the box. 
+We all know that Python comes with *batteries included* because in its standard library there are a lot of tools that you can easily use out of the box. 
 One of theese tools is the `timeit` module.
 
 The `timeit` module allows you to measure how much time is taken for a specific python piece of code. In short, it takes your piece of code, runs it a million times, and then returns you the execution time of the run.
@@ -121,7 +121,7 @@ $ python timeit1.py
 Ok, let's face it, this code sucks guys...
 
 
-> Please note that during the execution, the ~timeit()~ function disables the garbage collector to have the single measurements more comparable. This is usually ok but sometimes it can be useful to measure it because garbage collections can be an important aspect to consider talking about performance. In this case, consider that you can reenable the garbage collection just by adding ~'gc.enable()'~ to the ~setup~ parameter like this:
+> Please note that during the execution, the `timeit()` function disables the garbage collector to have the single measurements more comparable. This is usually ok but sometimes it can be useful to measure it because garbage collections can be an important aspect to consider talking about performance. In this case, consider that you can reenable the garbage collection just by adding `gc.enable()` to the `setup` parameter.
 
 
 However, as you may know, there's a better way to concatenate strings in Python and it's done by using the `.join()` method of a string object. 
