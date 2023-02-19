@@ -19,7 +19,7 @@ tags:
 Hi guys, this week's tip is about measuring the performance of your Python code. 
 Maybe you left your cubicle last Friday with some piece of code that wasn't performing well? Well, today you will learn how to measure it! :)
 
-# The timeit module 
+## The timeit module
 
 We all know that Python comes with *batteries included* because in its standard library there are a lot of tools that you can easily use out of the box. 
 One of theese tools is the `timeit` module.
@@ -78,7 +78,8 @@ The signature of the function we will use is the following:
 timeit.timeit(stmt='pass', setup='pass', timer=<default timer>, number=1000000, globals=None)
 ```
 
-So in our code we can import the `timeit module and use this function, where: 
+So in our code we can import the `timeit` module and use this function, where: 
+
 - `stmt` is the statement to be tested, written as a string
 - `setup` is an optional string that you can use to setup the environment before starting
 - `timer` is an optional parameter to specify the timer we want to use (by default it is the `time.perf_counter()` timer)
@@ -152,7 +153,7 @@ $ python timeit2.py
 
 Ok, we have optimized our code by 95%, let's call it a day! ;)
 
-# So, what have we learned?
+## So, what have we learned?
 
 - to measure a Python piece of code the best method is to use the `timeit` module of the standard library
 - optimizing your code is super important

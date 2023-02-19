@@ -18,7 +18,8 @@ Today's article is about one of the most impressive pieces of software Python-re
 `pyenv` is the most clever way of installing Python on your system and allows you to install and manage several different versions of 
 Python specifying a different Python version for every project you have.
 
-# The installation process 
+## The installation process
+
 If you're on a Mac and you are a [homebrew](https://brew.sh/index_it) user there's a specific [formulae](https://formulae.brew.sh/formula/pyenv) 
 for that. If you don't know homebrew, it's a package manager for macOS and it's another great piece of software, go and check it out, don't 
 miss it! If you have homebrew installed, you can simply get pyenv by using the following command:
@@ -123,7 +124,7 @@ That's it, now log out and log in again to make your system accept and load thes
 
 If everything worked as expected, you can try to execute `pyenv` and if you get something, you did it, the installation was ok, read on.
 
-# Using pyenv
+## Using pyenv
 
 Now that we have `pyenv` installed, we can start using it. On my Lithium system, the default python version that comes installed with the 
 system is the 2.7, which is terrible, isn't it? So we will download and install the last Python version available that at the moment is the 3.10.4.
@@ -338,7 +339,7 @@ dave@hell:~$
 
 There are currently more than 560 versions of Python you can choose from. 
 
-# Behind the magic
+## Behind the magic
 
 Now that you know the basic usage of pyenv you might wondering how it works. 
 Well, it turns out that as usual, it is easier than you may expect.
@@ -362,7 +363,7 @@ When a shim is executed, the Python version to be used is chosen in the followin
 All the Python versions installed by `pyenv` can be found under the directory `$(pyenv root)/versions` and can be uninstalled by the
 `pyenv uninstall` command.
 
-# To sum up
+## To sum up
 
 In this article, we have seen how easy it is to manage different Python versions either on a per-user or a per-project basis with pyenv.
 For more information visit the [official GitHub page of the project](https://github.com/pyenv/pyenv#how-it-works) and feel free to submit

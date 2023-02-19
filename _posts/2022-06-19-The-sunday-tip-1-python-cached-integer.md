@@ -22,7 +22,7 @@ Let me know if you like the idea in the comment below or maybe [buy me a coffee]
 
 This week tip is about... 
 
-# Python integer cache.
+## Python integer cache.
 
 Let's start with an example, open your REPL and try this:
 
@@ -33,7 +33,7 @@ Let's start with an example, open your REPL and try this:
 >>> False
 ```
 
-As you can see we have assigned the value ~666~ to the variable ~a~ and then the value ~666~ to the variable ~b~.
+As you can see we have assigned the value `666` to the variable `a` and then the value `666` to the variable `b`.
 Unsurprisingly, the two variables are pointing to two different objects.
 
 So, what's strange with that?
@@ -48,7 +48,7 @@ Let's try with this second example:
 >>> True
 ```
 
-What? Why the two variables ~a~ and ~b~ are now pointing to the same obejct?
+What? Why the two variables `a` and `b` are now pointing to the same obejct?
 
 No, you Python interpreter is not /religious/, it doesn't consider the number `3` better or worse than the 
 number `666`, it just cache the values between `-5` and `256` for performance reasons.
@@ -83,12 +83,12 @@ True
 False
 ```
 
-# So, what have we learned?
+## So, what have we learned?
 
 - your compiler *does* optimize more than you think
 - what you get in the REPL is not always identical to what you get from the compiler
 - even float numbers may be cached
-- not /every/ number is cached ;)
+- not *every* number is cached ;)
 
 
 Happy Sunday!

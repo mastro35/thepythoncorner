@@ -171,5 +171,5 @@ Et voilà:
 
 Oh my God... 888 cases right now in Italy! ... it's time to go now!
 
-Bye  
+Bye
 D.
