@@ -37,10 +37,10 @@ permalink: /posts/:year-:month-:day-:slug/
 paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 Timezone: PDT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+include: [".well-known"]
 
 Include:
   - _pages
-  - .well-known # for mastodon alias
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
