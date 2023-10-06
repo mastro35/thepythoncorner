@@ -72,9 +72,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.thepythoncorner.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/thepythoncorner"
+    - label: "mastodon"
+      icon: "fab fa-fw fa-link"
+      url: "https://fosstodon/@thepythoncorner"
 #    - label: "GitHub"
 #      icon: "fab fa-fw fa-github"
 #      url: "https://github.com/mastro35"
@@ -84,9 +84,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/thepythoncorner"
+    - label: "mastodon"
+      icon: "fab fa-fw fa-link-square"
+      url: "https://fosstodon.org/thepythoncorner"
 
 defaults:
   # _posts
