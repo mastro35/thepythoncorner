@@ -74,7 +74,7 @@ author:
       url: "https://www.thepythoncorner.com"
     - label: "mastodon"
       icon: "fab fa-fw fa-link"
-      url: "https://fosstodon/@thepythoncorner"
+      url: "https://fosstodon.org/@thepythoncorner"
 #    - label: "GitHub"
 #      icon: "fab fa-fw fa-github"
 #      url: "https://github.com/mastro35"
@@ -86,7 +86,7 @@ footer:
   links:
     - label: "mastodon"
       icon: "fab fa-fw fa-link-square"
-      url: "https://fosstodon.org/thepythoncorner"
+      url: "https://fosstodon.org/@thepythoncorner"
 
 defaults:
   # _posts
