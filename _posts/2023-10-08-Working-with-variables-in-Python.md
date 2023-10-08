@@ -310,5 +310,5 @@ There is a big difference between knowing how to write a few lines of code and r
 
 Anyway, if I have managed to even save you a headache... consider buying me a coffee by clicking on the button below! :)
 
-Byez
+Byez  
 D.
