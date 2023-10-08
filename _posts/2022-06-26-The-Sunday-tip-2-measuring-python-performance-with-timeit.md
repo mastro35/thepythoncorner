@@ -1,5 +1,5 @@
 ---
-title: "The Sunday tip #2: Measuring Python code performance with the timeit module"
+title: "Measuring Python code performance with the timeit module"
 date: 2022-06-26T00:04:22+01:00 
 author: "davide_mastromatteo"
 excerpt: "Good code is also code that performs well, here's how you can measure your code's performance in Python"

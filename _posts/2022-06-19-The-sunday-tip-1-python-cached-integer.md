@@ -1,5 +1,5 @@
 ---
-title: "The Sunday tip #1: Python cached integers"
+title: Python cached integers"
 date: 2022-06-19T00:07:35+01:00
 author: "davide_mastromatteo"
 excerpt: "Did you know that Python compiler optimize your program caching small integers?" 
@@ -16,11 +16,7 @@ tags:
 ---
 ![compiling](https://imgs.xkcd.com/comics/compiling.png)
 
-Hey guys, today's post is just a small tip that inaugurate a new series: *the Sunday tips*.
-In this series I will give you a brief Python tip so to whet your pythonic appetite before starting a new working week.
-Let me know if you like the idea in the comment below or maybe [buy me a coffee][http://buymeacoffee.com/mastro35]([buying me a coffee]] so to tip my Sunday tip! :)
-
-This week tip is about... 
+Hey guys, today's post is just a small tip about...\
 
 ## Python integer cache.
 
