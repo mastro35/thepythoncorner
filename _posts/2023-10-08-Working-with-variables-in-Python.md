@@ -1,6 +1,6 @@
 ---
 title: "Working with variables in Python"
-date: 2023-10-08T18:05:35+01:00 
+date: 2023-10-08T00:05:35+01:00 
 author: "davide_mastromatteo"
 excerpt: "Have you ever wondered how variables works in Python? Well, this article will help you find it out."
 header:
