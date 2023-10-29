@@ -1,7 +1,7 @@
 ---
 title: Python Metaclasses
 date: 2016-12-22T12:31:01+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: |
   "Metaclasses are deeper magic than 99% of users should ever worry about. If you wonder whether you need them, you don't". That's what Tim Peters once said. But aren't you curious to know something about them? :)
 header:

@@ -1,7 +1,7 @@
 ---
 title: How to create a watchdog in Python to look for filesystem changes
 date: 2019-01-13T19:08:55+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: In this article, we'll discuss how to implement a watchdog in Python that monitors a file system to automatically take actions when a change occurs.
 header:
   teaser: https://imgs.xkcd.com/comics/vet.png

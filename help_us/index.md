@@ -1,7 +1,7 @@
 ---
 permalink: /help_us/
 title: "Help us"
-layout: single
+layout: page
 ---
 If you are reading this page it means that you are interested in this project, so the first thing I want to tell you is **THANK YOU!**
 

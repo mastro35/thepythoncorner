@@ -1,7 +1,7 @@
 ---
 title: Logging in Python
 date: 2017-08-29T13:02:52+02:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Do you always write log routines to make your program be verbose in the production environment? No? Well, you'd better have a look at this article."
 header:
   teaser: https://imgs.xkcd.com/comics/git_commit.png

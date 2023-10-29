@@ -1,7 +1,7 @@
 ---
 title: Writing a FUSE filesystem in Python
 date: 2017-02-28T00:11:19+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "In this article, we will see how to create a FUSE filesystem in Python. Don't worry, it's easier than you thought,"
 header:
   teaser:  https://imgs.xkcd.com/comics/porn_folder.png

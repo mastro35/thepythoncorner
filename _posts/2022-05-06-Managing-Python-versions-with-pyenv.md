@@ -1,7 +1,7 @@
 ---
 title: Managing Python versions with pyenv
 date: 2022-05-07T17:37:47+02:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Are you sure that you are installing Python right?"
 header:
     teaser: https://imgs.xkcd.com/comics/retro_virus.png)

@@ -1,7 +1,7 @@
 ---
 title: Lambdas and functions in Python
 date: 2017-12-13T19:06:00+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "How lambdas can improve your code's readability and maintainability"
 header:
   teaser: https://imgs.xkcd.com/comics/code_quality_2.png

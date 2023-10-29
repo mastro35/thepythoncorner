@@ -1,7 +1,7 @@
 ---
 title: The art of avoiding nested code
 date: 2017-12-04T23:34:42+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: |
   The fifth statement of Tim Peter's "Zen of Python" is: "Flat is better than nested". So, let's explore some tips to make our code flatter and avoid nested code in Python! :)
 header:

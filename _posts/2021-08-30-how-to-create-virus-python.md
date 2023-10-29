@@ -1,7 +1,7 @@
 ---
 title: "How to create a computer virus in Python"
 date: 2021-08-30T16:00:47+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Is it possible to create a self-replicating virus in Python? In this article, we'll find out..."
 header:
     teaser: https://imgs.xkcd.com/comics/retro_virus.png

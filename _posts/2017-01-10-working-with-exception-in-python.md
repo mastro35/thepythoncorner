@@ -1,7 +1,7 @@
 ---
 title: Working with Exception in Python
 date: 2017-01-10T19:02:01+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "To know how exception works in Python is really important. Exceptions are not just used to control the program's errors but also to manage the program's flow and in this post, we will discuss this specific topic"
 header:
   teaser: https://imgs.xkcd.com/comics/compiler_complaint.png

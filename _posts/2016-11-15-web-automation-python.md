@@ -1,7 +1,7 @@
 ---
 title: "Web Automation in Python"
 date: 2016-11-15T00:00:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Automation and web test. The Pythonic way."
 header:
   teaser: https://imgs.xkcd.com/comics/turing_test.png

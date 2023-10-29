@@ -1,7 +1,7 @@
 ---
 title: "Manning Publications"
 date: 2020-05-07T00:18:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "In this article we proudly present our friends of Manning Pubblication and ... we have a special gift for you!"
 header:
   teaser: https://imgs.xkcd.com/comics/bookstore.png

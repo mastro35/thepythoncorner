@@ -1,7 +1,7 @@
 ---
 title: "How to create a telegram bot with Python in minutes"
 date: 2021-01-16T16:00:47+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Creating a Telegram bot in Python couldn't be easier. Don't you believe me? Have a look at this article and let's write our first bot in minutes!"
 header:
   teaser: https://imgs.xkcd.com/comics/android_girlfriend.png

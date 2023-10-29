@@ -1,7 +1,7 @@
 ---
 title: "Working with decorators in Python - The Basics"
 date: 2020-12-30T12:55:36+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Decorators are a powerful feature that Python offers out of the box to write better and reusable code. Do you know them?"
 header:
   teaser: https://imgs.xkcd.com/comics/bad_code.png

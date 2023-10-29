@@ -1,7 +1,7 @@
 ---
 permalink: /about/
-title: "About"
-layout: single
+title: 
+layout: page
 ---
 The Python Corner was born in 2016. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Formatting strings in Python: the easyway by using f-strings"
 date: 2020-12-02T22:09:35+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Formatting a string is an easy operation in Python that almost any developer can do. But are you sure you're doing it right?"
 header:
   teaser: https://imgs.xkcd.com/comics/string_theory.png

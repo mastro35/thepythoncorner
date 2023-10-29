@@ -1,7 +1,7 @@
 ---
 title: Speed up your code by using a cache in Python
 date: 2018-04-26T11:26:00+02:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: Did you know you can make your application lot faster just with a couple lines of code and a local cache?
 header:
   teaser: https://imgs.xkcd.com/comics/refresh_types.png

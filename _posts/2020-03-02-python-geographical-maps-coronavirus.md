@@ -1,7 +1,7 @@
 ---
 title: "Representing geographic data in Python - feat. Coronavirus"
 date: 2020-03-02T00:18:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "In this tutorial, you will learn how to represent geographic  data in Python using Jupiter Notebook and folium"
 header:
   teaser: https://imgs.xkcd.com/comics/colds.png

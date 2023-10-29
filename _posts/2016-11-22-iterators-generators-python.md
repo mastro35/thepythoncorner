@@ -1,7 +1,7 @@
 ---
 title: "Iterators and Generators in Python"
 date: 2016-11-22T00:00:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Let's start using iterators and generators in Python"
 header:
   teaser: https://imgs.xkcd.com/comics/random_number.png

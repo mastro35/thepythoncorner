@@ -1,7 +1,7 @@
 ---
 title: "Python Hash Tables: Understanding Dictionaries"
 date: 2020-08-21T06:59:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Dictionaries are a really important part of Python but how can they be so fast and reliable? The answer is about Hash Tables..."
 header:
   teaser: https://imgs.xkcd.com/comics/password_strength.png

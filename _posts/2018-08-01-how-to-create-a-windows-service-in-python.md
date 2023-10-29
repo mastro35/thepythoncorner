@@ -1,7 +1,7 @@
 ---
 title: How to create a Windows Service in Python
 date: 2018-08-01T19:36:01+02:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: Can we create a Python Windows service that starts at boot and can be controlled like any other standard Windows service? Yes, we can.
 header:
   teaser: https://imgs.xkcd.com/comics/backslashes.png

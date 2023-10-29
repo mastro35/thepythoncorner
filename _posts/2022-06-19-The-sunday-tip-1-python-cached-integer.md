@@ -1,7 +1,7 @@
 ---
-title: Python cached integers"
+title: Python cached integers
 date: 2022-06-19T00:07:35+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Did you know that Python compiler optimize your program caching small integers?" 
 header:
     teaser: https://imgs.xkcd.com/comics/compiling.png

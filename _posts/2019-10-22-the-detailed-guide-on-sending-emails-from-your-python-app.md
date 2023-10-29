@@ -1,7 +1,7 @@
 ---
 title: The Detailed Guide on Sending Emails from your Python App
 date: 2019-10-22T00:00:45+02:00
-author: "andrew_zapisotskyi"
+author: Andrew Zapisotskyi
 excerpt: "A special article from Andrew Zapisotskyi of [mailtrap](https://mailtrap.io) about sending emails from your Python App"
 header:
   teaser: https://imgs.xkcd.com/comics/mail.png

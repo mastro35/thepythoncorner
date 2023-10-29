@@ -1,7 +1,7 @@
 ---
 title: When To Use Generators in Python
 date: 2018-04-17T11:46:00+02:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "Let's talk about when to use generators in Python"
 header:
   teaser: https://imgs.xkcd.com/comics/goto.png

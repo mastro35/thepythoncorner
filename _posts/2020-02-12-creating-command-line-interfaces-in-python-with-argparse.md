@@ -1,7 +1,7 @@
 ---
 title: Creating command-line interfaces in Python with Argparse
 date: 2020-02-12T00:00:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 header:
   teaser: https://imgs.xkcd.com/comics/command_line_fu.png
 categories:

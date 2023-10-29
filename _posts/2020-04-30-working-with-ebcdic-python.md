@@ -1,7 +1,7 @@
 ---
 title: "Working with EBCDIC in Python"
 date: 2020-04-30T00:18:49+01:00
-author: "davide_mastromatteo"
+author: Davide Mastromatteo
 excerpt: "In this tutorial, you will learn how to work with EBCDIC code in Python"
 header:
   teaser: https://imgs.xkcd.com/comics/the_history_of_unicode.png
