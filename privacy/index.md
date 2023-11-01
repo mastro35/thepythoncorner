@@ -2,7 +2,7 @@
 permalink: /privacy/
 title: "Terms and Privacy Policy"
 last_modified_at: 2021-02-03T12:35:35+01:00
-layout: single
+layout: page
 ---
 
 # Privacy Policy for The Python Corner
