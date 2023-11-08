@@ -13,6 +13,7 @@ tags:
   - python
 redirect_from:
   - /dev/hash-tables-understanding-dictionaries/
+  - /posts/2020-08-21-hash-
 ---
 ![teaser](https://imgs.xkcd.com/comics/password_strength.png)
 
