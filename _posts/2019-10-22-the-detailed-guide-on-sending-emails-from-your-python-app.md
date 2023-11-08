@@ -16,6 +16,7 @@ redirect_from:
   - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app
   - /2019/10/the-detailed-guide-on-sending-emails-from-your-python-app/
   - /dev/the-detailed-guide-on-sending-emails-from-your-python-app/
+  - /posts/2020-04-30-working-with-ebcdic-python
 ---
 ![teaser](https://imgs.xkcd.com/comics/mail.png)
 
