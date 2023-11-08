@@ -16,6 +16,7 @@ redirect_from:
   - /2016/11/iterators-and-generators-in-python
   - /2016/11/iterators-and-generators-in-python/  
   - /dev/iterators-generators-python/
+  - /posts/2016-11-22-iterators-generators-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/random_number.png)
 
