@@ -15,6 +15,7 @@ redirect_from:
   - /2016/10/python-how-to-open-a-file-on-windows-without-locking-it
   - /2016/10/python-how-to-open-a-file-on-windows-without-locking-it/
   - /dev/how-to-open-file-without-locking-it/
+  - /posts/2016-10-27-how-to-open-file-without-locking-it/
 ---
 ![teaser](https://imgs.xkcd.com/comics/still_in_use.png)
 
