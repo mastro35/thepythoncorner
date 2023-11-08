@@ -17,6 +17,7 @@ redirect_from:
   - /2017/02/writing-a-fuse-filesystem-in-python
   - /2017/02/writing-a-fuse-filesystem-in-python/
   - /dev/writing-a-fuse-filesystem-in-python/
+  - /posts/2017-02-28-writing-a-fuse-filesystem-in-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/porn_folder.png)
 
