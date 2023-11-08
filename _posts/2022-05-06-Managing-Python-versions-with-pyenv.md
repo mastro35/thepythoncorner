@@ -11,6 +11,8 @@ tags:
     - pyenv
     - version
     - python
+redirect_from:
+    - /posts/2022-05-06-managing-python-versions-with-pyenv/
 ---
 ![teaser](https://imgs.xkcd.com/comics/python_environment.png)
 
