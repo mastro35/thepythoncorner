@@ -15,6 +15,7 @@ redirect_from:
   - /2020/02/serialization-in-python-with-json
   - /2020/02/serialization-in-python-with-json/
   - /dev/serialization-python-json/
+  - /posts/2020-02-20-serialization-python-json/
 ---
 ![teaser](https://imgs.xkcd.com/comics/wanna_see_the_code.png)
 
