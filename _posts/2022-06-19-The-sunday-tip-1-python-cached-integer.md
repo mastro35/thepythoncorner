@@ -13,6 +13,8 @@ tags:
     - python
     - Interpreter
     - Compiler
+redirect_from:
+    - /posts/2022-06-19-the-sunday-tip-1-python-cached-integer/
 ---
 ![compiling](https://imgs.xkcd.com/comics/compiling.png)
 
