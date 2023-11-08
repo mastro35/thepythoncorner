@@ -15,6 +15,8 @@ tags:
   - Mainframe
 redirect_from:
   - /dev/working-with-ebcdic-python/
+  - /posts/2020-04-30-working-with-ebcdic-python/
+
 ---
 ![teaser](https://imgs.xkcd.com/comics/the_history_of_unicode.png)  
 A couple of months ago I had to rewrite a program that used to be executed on a IBM System Z9. For those of you who don't know what I'm talking about... "it's a [mainframe](https://en.wikipedia.org/wiki/IBM_System_z9), kiddo"!
