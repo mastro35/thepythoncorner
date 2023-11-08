@@ -16,6 +16,7 @@ redirect_from:
   - /2016/12/syntax-sugar-in-python-3-6
   - /2016/12/syntax-sugar-in-python-3-6/
   - /dev/syntax_sugar_python_36/
+  - /posts/2016-12-13-syntax_sugar_python_36/
 ---
 ![teaser](https://imgs.xkcd.com/comics/formal_languages.png)
 
