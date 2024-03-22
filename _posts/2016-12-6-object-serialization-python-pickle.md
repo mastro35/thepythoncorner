@@ -15,6 +15,7 @@ redirect_from:
   - /2016/12/object-serialization-in-python
   - /2016/12/object-serialization-in-python/
   - /dev/object-serialization-python-pickle/
+  - /posts/2016-12-6-object-serialization-python-pickle/
 ---
 ![teaser](https://imgs.xkcd.com/comics/expiration_date_high_score.png)
 
