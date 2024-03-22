@@ -18,6 +18,7 @@ redirect_from:
   - /2016/11/web-test-automation-in-python
   - /2016/11/web-test-automation-in-python/  
   - /dev/web-automation-python/
+  - /posts/2016-11-15-web-automation-python/
 ---
 ![teaser](https://imgs.xkcd.com/comics/turing_test.png)
 
