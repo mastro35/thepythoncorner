@@ -12,11 +12,13 @@ tags:
     - Sunday_Tips
     - python
     - timeit
+redirect_from:
+    - /posts/2022-06-26-the-sunday-tip-2-measuring-python-performance-with-timeit/
 ---
 
 ![hypotesis_generation](https://imgs.xkcd.com/comics/hypothesis_generation.png)
 
-Hi guys, this week's tip is about measuring the performance of your Python code. 
+Hi guys, this week'shttps://thepythoncorner.com/posts/2022-06-26-the-sunday-tip-2-measuring-python-performance-with-timeit/ tip is about measuring the performance of your Python code. 
 Maybe you left your cubicle last Friday with some piece of code that wasn't performing well? Well, today you will learn how to measure it! :)
 
 ## The timeit module
