@@ -19,6 +19,7 @@ redirect_from:
   - /2020/03/473/
   - /2020/03/473
   - /dev/python-geographical-maps-coronavirus/
+  - /posts/2020-03-02-python-geographical-maps-coronavirus/
 ---
 ![teaser](https://imgs.xkcd.com/comics/colds.png)
 
