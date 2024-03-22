@@ -15,6 +15,7 @@ redirect_from:
   - /2018/04/generators-in-python-should-i-use-them
   - /2018/04/generators-in-python-should-i-use-them/
   - /dev/generators-in-python-should-i-use-them/
+  - /posts/2018-04-17-generators-in-python-should-i-use-them
 ---
 ![teaser](https://imgs.xkcd.com/comics/goto.png)
 
