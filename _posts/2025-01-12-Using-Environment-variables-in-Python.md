@@ -2,7 +2,7 @@
 title: Using Environment Variables in Python
 date: 2025-01-12T18:19:00+01:00
 author: Davide Mastromatteo
-excerpt: "A great place were to store sensitive information that have to been used by your application is "environment variables". If you are interested in learning how to use them in Python, just have a look at this article."
+excerpt: "A great place were to store sensitive information that have to been used by your application are environment variables. If you are interested in learning how to use them in Python, just have a look at this article."
 header:
   teaser: https://imgs.xkcd.com/comics/xkcde.png
 categories:
