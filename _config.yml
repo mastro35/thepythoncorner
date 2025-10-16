@@ -22,12 +22,12 @@ author: Davide Mastromatteo
 navbar-links:
   About Us: 
     - About us: "about"
-    - Privacy Policy: "https://thepythoncorner.com/privacy/"
+#    - Privacy Policy: "https://thepythoncorner.com/privacy/"
   Our Friends:
     - EmacsWorld: "https://emacsworld.com"
-    - Dave's Newsletter: "https://mastro35.com"
-  Newsletter: "https://buttondown.email/thepythoncorner"
-  Gift Shop: "https://shop.spreadshirt.com/the-python-corner/"
+#    - Dave's Newsletter: "https://mastro35.com"
+#  Newsletter: "https://buttondown.email/thepythoncorner"
+#  Gift Shop: "https://shop.spreadshirt.com/the-python-corner/"
 
 ################
 # --- Logo --- #
@@ -54,7 +54,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  email: "info@thepythoncorner.com"
+#  email: "info@thepythoncorner.com"
 #  facebook: deanattali
   github: mastro35
 #  twitter: mastro35
@@ -101,7 +101,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "thepythoncorner.com"
+# url-pretty: "thepythoncorner.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 100
